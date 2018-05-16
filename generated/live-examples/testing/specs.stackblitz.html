@@ -1629,7 +1629,7 @@ can be found in the LICENSE file at http://angular.io/license
 */"><input type="hidden" name="files[src/app/demo/async-helper.spec.ts]" value="// tslint:disable-next-line:no-unused-variable
 import { async, fakeAsync, tick } from '@angular/core/testing';
 
-import { of } from 'rxjs/observable/of';
+import { of } from 'rxjs';
 import { delay } from 'rxjs/operators';
 
 describe('Angular async helper', () => {
@@ -2550,7 +2550,7 @@ import { Component, ContentChildren, Directive, EventEmitter,
          Pipe, PipeTransform,
          SimpleChange } from '@angular/core';
 
-import { of } from 'rxjs/observable/of';
+import { of } from 'rxjs';
 import { delay } from 'rxjs/operators';
 
 ////////// The App: Services and Components for the tests. //////////////
@@ -2578,8 +2578,8 @@ export class ValueService {
 
 @Injectable()
 export class MasterService {
-  constructor(private masterService: ValueService) { }
-  getValue() { return this.masterService.getValue(); }
+  constructor(private valueService: ValueService) { }
+  getValue() { return this.valueService.getValue(); }
 }
 
 /////////// Pipe ////////////////
@@ -3243,20 +3243,21 @@ function heroModuleSetup() {
     }));
 
     it('should convert hero name to Title Case', () => {
-      const inputName = 'quick BROWN  fox';
-      const titleCaseName = 'Quick Brown  Fox';
-      const { nameInput, nameDisplay } = page;
+      // get the name's input and display elements from the DOM
+      const hostElement = fixture.nativeElement;
+      const nameInput: HTMLInputElement = hostElement.querySelector('input');
+      const nameDisplay: HTMLElement = hostElement.querySelector('span');
 
-      // simulate user entering new name into the input box
-      nameInput.value = inputName;
+      // simulate user entering a new name into the input box
+      nameInput.value = 'quick BROWN  fOx';
 
       // dispatch a DOM event so that Angular learns of input value change.
       nameInput.dispatchEvent(newEvent('input'));
 
-      // Tell Angular to update the output span through the title pipe
+      // Tell Angular to update the display binding through the title pipe
       fixture.detectChanges();
 
-      expect(nameDisplay.textContent).toBe(titleCaseName);
+      expect(nameDisplay.textContent).toBe('Quick Brown  Fox');
     });
   });
 
@@ -3475,7 +3476,7 @@ Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at http://angular.io/license
 */"><input type="hidden" name="files[src/app/hero/hero-detail.service.ts]" value="import { Injectable } from '@angular/core';
 
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 import { Hero } from '../model/hero';
@@ -3657,7 +3658,7 @@ can be found in the LICENSE file at http://angular.io/license
 */"><input type="hidden" name="files[src/app/hero/hero-list.component.ts]" value="import { Component, OnInit } from '@angular/core';
 import { Router }            from '@angular/router';
 
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 
 import { Hero } from '../model/hero';
 import { HeroService } from '../model/hero.service';
@@ -3776,7 +3777,7 @@ describe ('HeroesService (with spies)', () => {
   let heroService: HeroService;
 
   beforeEach(() => {
-    // Todo: spy on other methods too
+    // TODO: spy on other methods too
     httpClientSpy = jasmine.createSpyObj('HttpClient', ['get']);
     heroService = new HeroService(<any> httpClientSpy);
   });
@@ -3978,8 +3979,7 @@ can be found in the LICENSE file at http://angular.io/license
 */"><input type="hidden" name="files[src/app/model/hero.service.ts]" value="import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 
-import { Observable } from 'rxjs/Observable';
-import { of } from 'rxjs/observable/of';
+import { Observable } from 'rxjs';
 import { catchError, map, tap } from 'rxjs/operators';
 
 import { Hero } from './hero';
@@ -4109,9 +4109,7 @@ import {
   HttpModule, Http, XHRBackend, Response, ResponseOptions
 } from '@angular/http';
 
-import { Observable } from 'rxjs/Observable';
-import { of } from 'rxjs/observable/of';
-import { catchError, tap } from 'rxjs/operators';
+import { of } from 'rxjs';
 
 import { Hero } from './hero';
 import { HttpHeroService } from './http-hero.service';
@@ -4233,9 +4231,9 @@ import { Http, Response } from '@angular/http';
 import { Headers, RequestOptions } from '@angular/http';
 import { Hero }           from './hero';
 
-import { Observable } from 'rxjs/Observable';
-import { ErrorObservable } from 'rxjs/observable/ErrorObservable';
-import { catchError, map, tap } from 'rxjs/operators';
+import { Observable } from 'rxjs';
+import { throwError } from 'rxjs';
+import { catchError, map } from 'rxjs/operators';
 
 @Injectable()
 export class HttpHeroService {
@@ -4291,7 +4289,7 @@ export class HttpHeroService {
     // In a real world app, we might send the error to remote logging infrastructure
     let errMsg = error.message || 'Server error';
     console.error(errMsg); // log to console instead
-    return new ErrorObservable(errMsg);
+    return throwError(errMsg);
   }
 }
 
@@ -4493,7 +4491,7 @@ Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at http://angular.io/license
 */"><input type="hidden" name="files[src/app/model/testing/test-hero.service.ts]" value="import { Injectable } from '@angular/core';
 
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import { asyncData } from '../../../testing';
 
 import { map } from 'rxjs/operators';
@@ -4781,7 +4779,7 @@ Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at http://angular.io/license
 */"><input type="hidden" name="files[src/app/shared/title-case.pipe.ts]" value="import { Pipe, PipeTransform } from '@angular/core';
 
-@Pipe({name: 'titlecase', pure: false})
+@Pipe({name: 'titlecase', pure: true})
 /** Transform to Title Case: uppercase the first letter of the words in a string.*/
 export class TitleCasePipe implements PipeTransform {
   transform(input: string): string {
@@ -4808,12 +4806,6 @@ can be found in the LICENSE file at http://angular.io/license
 */"><input type="hidden" name="files[src/app/twain/twain.component.marbles.spec.ts]" value="import { async, fakeAsync, ComponentFixture, TestBed, tick } from '@angular/core/testing';
 
 import { cold, getTestScheduler } from 'jasmine-marbles';
-
-import { Observable } from 'rxjs/Observable';
-import { of } from 'rxjs/observable/of';
-
-import { ErrorObservable } from 'rxjs/observable/ErrorObservable';
-import { last } from 'rxjs/operators';
 
 import { TwainService }   from './twain.service';
 import { TwainComponent } from './twain.component';
@@ -4895,10 +4887,8 @@ can be found in the LICENSE file at http://angular.io/license
 
 import { asyncData, asyncError }  from '../../testing';
 
-import { Observable } from 'rxjs/Observable';
-import { of } from 'rxjs/observable/of';
+import { of, throwError } from 'rxjs';
 
-import { ErrorObservable } from 'rxjs/observable/ErrorObservable';
 import { last } from 'rxjs/operators';
 
 import { TwainService }   from './twain.service';
@@ -4960,7 +4950,7 @@ describe('TwainComponent', () => {
     it('should display error when TwainService fails', fakeAsync(() => {
       // tell spy to return an error observable
       getQuoteSpy.and.returnValue(
-        new ErrorObservable('TwainService test failure'));
+        throwError('TwainService test failure'));
 
       fixture.detectChanges(); // onInit()
       // sync spy errors immediately after init
@@ -5062,8 +5052,7 @@ Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at http://angular.io/license
 */"><input type="hidden" name="files[src/app/twain/twain.component.ts]" value="import { Component, OnInit } from '@angular/core';
 
-import { Observable } from 'rxjs/Observable';
-import { of } from 'rxjs/observable/of';
+import { Observable, of } from 'rxjs';
 import { catchError, startWith } from 'rxjs/operators';
 
 import { TwainService } from './twain.service';
@@ -5133,9 +5122,7 @@ can be found in the LICENSE file at http://angular.io/license
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 
-import { Observable } from 'rxjs/Observable';
-import { ErrorObservable } from 'rxjs/observable/ErrorObservable';
-import { of } from 'rxjs/observable/of';
+import { Observable, of, throwError } from 'rxjs';
 import { concat, map, retryWhen, switchMap, take, tap } from 'rxjs/operators';
 
 import { Quote } from './quote';
@@ -5166,11 +5153,11 @@ export class TwainService {
           }
           // Some other HTTP error.
           console.error(error);
-          return new ErrorObservable('Cannot get Twain quotes from the server');
+          return throwError('Cannot get Twain quotes from the server');
         }),
         take(2),
         // If a second retry value, then didn't find id:1 and triggers the following error
-        concat(new ErrorObservable('There are no Twain quotes')) // didn't find id:1
+        concat(throwError('There are no Twain quotes')) // didn't find id:1
       ))
     );
   }
@@ -5332,8 +5319,8 @@ can be found in the LICENSE file at http://angular.io/license
 */"><input type="hidden" name="files[src/testing/activated-route-stub.ts]" value="// export for convenience.
 export { ActivatedRoute } from '@angular/router';
 
-import { ReplaySubject } from 'rxjs/ReplaySubject';
 import { convertToParamMap, ParamMap, Params } from '@angular/router';
+import { ReplaySubject } from 'rxjs';
 
 /**
  * An ActivateRoute test double with a `paramMap` observable.
@@ -5374,8 +5361,7 @@ can be found in the LICENSE file at http://angular.io/license
 *
 * Using `asap` scheduler - as in `of(value, asap)` - doesn't work either.
 */
-import { Observable } from 'rxjs/Observable';
-import { defer } from 'rxjs/observable/defer';
+import { defer } from 'rxjs';
 
 /** Create async observable that emits-once and completes
  *  after a JS engine turn */
@@ -5602,12 +5588,7 @@ declare var jasmine;
 
 import './polyfills';
 
-import 'zone.js/dist/async-test';
-import 'zone.js/dist/fake-async-test';
-import 'zone.js/dist/long-stack-trace-zone';
-import 'zone.js/dist/proxy.js';
-import 'zone.js/dist/sync-test';
-import 'zone.js/dist/jasmine-patch';
+import 'zone.js/dist/zone-testing';
 
 import { getTestBed } from '@angular/core/testing';
 import {
@@ -5664,82 +5645,166 @@ can be found in the LICENSE file at http://angular.io/license
 Copyright 2017-2018 Google Inc. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at http://angular.io/license
-*/"><input type="hidden" name="files[src/environments/environment.ts]" value="// The file contents for the current environment will overwrite these during build.
-// The build system defaults to the dev environment which uses `environment.ts`, but if you do
-// `ng build --env=prod` then `environment.prod.ts` will be used instead.
-// The list of which env maps to which file can be found in `.angular-cli.json`.
+*/"><input type="hidden" name="files[src/environments/environment.ts]" value="// This file can be replaced during build by using the `fileReplacements` array.
+// `ng build ---prod` replaces `environment.ts` with `environment.prod.ts`.
+// The list of file replacements can be found in `angular.json`.
 
 export const environment = {
   production: false
 };
+
+/*
+ * In development mode, to ignore zone related error stack frames such as
+ * `zone.run`, `zoneDelegate.invokeTask` for easier debugging, you can
+ * import the following file, but please comment it out in production mode
+ * because it will have performance impact when throw error
+ */
+// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
 
 
 /*
 Copyright 2017-2018 Google Inc. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at http://angular.io/license
-*/"><input type="hidden" name="files[.angular-cli.json]" value="{
-  &quot;$schema&quot;: &quot;./node_modules/@angular/cli/lib/config/schema.json&quot;,
-  &quot;project&quot;: {
-    &quot;name&quot;: &quot;angular.io-example&quot;
-  },
-  &quot;apps&quot;: [
-    {
-      &quot;root&quot;: &quot;src&quot;,
-      &quot;outDir&quot;: &quot;dist&quot;,
-      &quot;assets&quot;: [
-        &quot;assets&quot;,
-        &quot;favicon.ico&quot;
-      ],
-      &quot;index&quot;: &quot;index.html&quot;,
-      &quot;main&quot;: &quot;main.ts&quot;,
-      &quot;polyfills&quot;: &quot;polyfills.ts&quot;,
-      &quot;test&quot;: &quot;test.ts&quot;,
-      &quot;tsconfig&quot;: &quot;tsconfig.app.json&quot;,
-      &quot;testTsconfig&quot;: &quot;tsconfig.spec.json&quot;,
+*/"><input type="hidden" name="files[angular.json]" value="{
+  &quot;$schema&quot;: &quot;./node_modules/@angular-devkit/core/src/workspace/workspace-schema.json&quot;,
+  &quot;version&quot;: 1,
+  &quot;newProjectRoot&quot;: &quot;projects&quot;,
+  &quot;projects&quot;: {
+    &quot;angular.io-example&quot;: {
+      &quot;root&quot;: &quot;&quot;,
+      &quot;projectType&quot;: &quot;application&quot;,
       &quot;prefix&quot;: &quot;app&quot;,
-      &quot;styles&quot;: [
-        &quot;test.css&quot;,
-        &quot;styles.css&quot;
-      ],
-      &quot;scripts&quot;: [],
-      &quot;environmentSource&quot;: &quot;environments/environment.ts&quot;,
-      &quot;environments&quot;: {
-        &quot;dev&quot;: &quot;environments/environment.ts&quot;,
-        &quot;prod&quot;: &quot;environments/environment.prod.ts&quot;
+      &quot;architect&quot;: {
+        &quot;build&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:browser&quot;,
+          &quot;options&quot;: {
+            &quot;outputPath&quot;: &quot;dist/angular.io-example&quot;,
+            &quot;index&quot;: &quot;src/index.html&quot;,
+            &quot;main&quot;: &quot;src/main.ts&quot;,
+            &quot;polyfills&quot;: &quot;src/polyfills.ts&quot;,
+            &quot;tsConfig&quot;: &quot;src/tsconfig.app.json&quot;,
+            &quot;assets&quot;: [
+              {
+                &quot;glob&quot;: &quot;favicon.ico&quot;,
+                &quot;input&quot;: &quot;src&quot;,
+                &quot;output&quot;: &quot;/&quot;
+              },
+              {
+                &quot;glob&quot;: &quot;**/*&quot;,
+                &quot;input&quot;: &quot;src/assets&quot;,
+                &quot;output&quot;: &quot;/assets&quot;
+              }
+            ],
+            &quot;styles&quot;: [
+              {
+                &quot;input&quot;: &quot;src/styles.css&quot;
+              }
+            ],
+            &quot;scripts&quot;: []
+          },
+          &quot;configurations&quot;: {
+            &quot;production&quot;: {
+              &quot;fileReplacements&quot;: [
+                {
+                  &quot;replace&quot;: &quot;src/environments/environment.ts&quot;,
+                  &quot;with&quot;: &quot;src/environments/environment.prod.ts&quot;
+                }
+              ],
+              &quot;optimization&quot;: true,
+              &quot;outputHashing&quot;: &quot;all&quot;,
+              &quot;sourceMap&quot;: false,
+              &quot;extractCss&quot;: true,
+              &quot;namedChunks&quot;: false,
+              &quot;aot&quot;: true,
+              &quot;extractLicenses&quot;: true,
+              &quot;vendorChunk&quot;: false,
+              &quot;buildOptimizer&quot;: true
+            }
+          }
+        },
+        &quot;serve&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:dev-server&quot;,
+          &quot;options&quot;: {
+            &quot;browserTarget&quot;: &quot;angular.io-example:build&quot;
+          },
+          &quot;configurations&quot;: {
+            &quot;production&quot;: {
+              &quot;browserTarget&quot;: &quot;angular.io-example:build:production&quot;
+            }
+          }
+        },
+        &quot;extract-i18n&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:extract-i18n&quot;,
+          &quot;options&quot;: {
+            &quot;browserTarget&quot;: &quot;angular.io-example:build&quot;
+          }
+        },
+        &quot;test&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:karma&quot;,
+          &quot;options&quot;: {
+            &quot;main&quot;: &quot;src/test.ts&quot;,
+            &quot;polyfills&quot;: &quot;src/polyfills.ts&quot;,
+            &quot;tsConfig&quot;: &quot;src/tsconfig.spec.json&quot;,
+            &quot;karmaConfig&quot;: &quot;src/karma.conf.js&quot;,
+            &quot;styles&quot;: [
+              {
+                &quot;input&quot;: &quot;styles.css&quot;
+              }
+            ],
+            &quot;scripts&quot;: [],
+            &quot;assets&quot;: [
+              {
+                &quot;glob&quot;: &quot;favicon.ico&quot;,
+                &quot;input&quot;: &quot;src/&quot;,
+                &quot;output&quot;: &quot;/&quot;
+              },
+              {
+                &quot;glob&quot;: &quot;**/*&quot;,
+                &quot;input&quot;: &quot;src/assets&quot;,
+                &quot;output&quot;: &quot;/assets&quot;
+              }
+            ]
+          }
+        },
+        &quot;lint&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:tslint&quot;,
+          &quot;options&quot;: {
+            &quot;tsConfig&quot;: [
+              &quot;src/tsconfig.app.json&quot;,
+              &quot;src/tsconfig.spec.json&quot;
+            ],
+            &quot;exclude&quot;: [
+              &quot;**/node_modules/**&quot;
+            ]
+          }
+        }
+      }
+    },
+    &quot;angular.io-example-e2e&quot;: {
+      &quot;root&quot;: &quot;e2e/&quot;,
+      &quot;projectType&quot;: &quot;application&quot;,
+      &quot;architect&quot;: {
+        &quot;e2e&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:protractor&quot;,
+          &quot;options&quot;: {
+            &quot;protractorConfig&quot;: &quot;e2e/protractor.conf.js&quot;,
+            &quot;devServerTarget&quot;: &quot;angular.io-example:serve&quot;
+          }
+        },
+        &quot;lint&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:tslint&quot;,
+          &quot;options&quot;: {
+            &quot;tsConfig&quot;: &quot;e2e/tsconfig.e2e.json&quot;,
+            &quot;exclude&quot;: [
+              &quot;**/node_modules/**&quot;
+            ]
+          }
+        }
       }
     }
-  ],
-  &quot;e2e&quot;: {
-    &quot;protractor&quot;: {
-      &quot;config&quot;: &quot;./protractor.conf.js&quot;
-    }
-  },
-  &quot;lint&quot;: [
-    {
-      &quot;project&quot;: &quot;src/tsconfig.app.json&quot;,
-      &quot;exclude&quot;: &quot;**/node_modules/**&quot;
-    },
-    {
-      &quot;project&quot;: &quot;src/tsconfig.spec.json&quot;,
-      &quot;exclude&quot;: &quot;**/node_modules/**&quot;
-    },
-    {
-      &quot;project&quot;: &quot;e2e/tsconfig.e2e.json&quot;,
-      &quot;exclude&quot;: &quot;**/node_modules/**&quot;
-    }
-  ],
-  &quot;test&quot;: {
-    &quot;karma&quot;: {
-      &quot;config&quot;: &quot;./karma.conf.js&quot;
-    }
-  },
-  &quot;defaults&quot;: {
-    &quot;styleExt&quot;: &quot;css&quot;,
-    &quot;component&quot;: {}
   }
-}
-"><input type="hidden" name="files[src/polyfills.ts]" value="/**
+}"><input type="hidden" name="files[src/polyfills.ts]" value="/**
  * This file includes polyfills needed by Angular and is loaded before the app.
  * You can add your own extra polyfills to this file.
  *
@@ -5793,7 +5858,20 @@ import 'core-js/es7/reflect';
  **/
 // import 'web-animations-js';
 
+/**
+ * By default, zone.js will patch all possible macroTask and DomEvents
+ * user can disable parts of macroTask/DomEvents patch by setting following flags
+ */
 
+ // (window as any).__Zone_disable_requestAnimationFrame = true; // disable patch requestAnimationFrame
+ // (window as any).__Zone_disable_on_property = true; // disable patch onProperty such as onclick
+ // (window as any).__zone_symbol__BLACK_LISTED_EVENTS = ['scroll', 'mousemove']; // disable patch specified eventNames
+
+ /*
+ * in IE/Edge developer tools, the addEventListener will also be wrapped by zone.js
+ * with the following flag, it will bypass `zone.js` patch for IE/Edge
+ */
+// (window as any).__Zone_enable_cross_context_check = true;
 
 /***************************************************************************************************
  * Zone JS is required by default for Angular itself.
@@ -5811,7 +5889,7 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
 Copyright 2017-2018 Google Inc. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at http://angular.io/license
-*/"><input type="hidden" name="tags[0]" value="angular"><input type="hidden" name="tags[1]" value="example"><input type="hidden" name="tags[2]" value="testing"><input type="hidden" name="description" value="Angular Example - Testing - specs"><input type="hidden" name="dependencies" value="{&quot;@angular/animations&quot;:&quot;^5.2.0&quot;,&quot;@angular/common&quot;:&quot;^5.2.0&quot;,&quot;@angular/compiler&quot;:&quot;^5.2.0&quot;,&quot;@angular/core&quot;:&quot;^5.2.0&quot;,&quot;@angular/forms&quot;:&quot;^5.2.0&quot;,&quot;@angular/http&quot;:&quot;^5.2.0&quot;,&quot;@angular/platform-browser&quot;:&quot;^5.2.0&quot;,&quot;@angular/platform-browser-dynamic&quot;:&quot;^5.2.0&quot;,&quot;@angular/router&quot;:&quot;^5.2.0&quot;,&quot;angular-in-memory-web-api&quot;:&quot;~0.5.0&quot;,&quot;core-js&quot;:&quot;^2.4.1&quot;,&quot;rxjs&quot;:&quot;^5.5.6&quot;,&quot;zone.js&quot;:&quot;^0.8.19&quot;,&quot;jasmine-core&quot;:&quot;~2.8.0&quot;,&quot;jasmine-marbles&quot;:&quot;~0.2.0&quot;}"></form>
+*/"><input type="hidden" name="tags[0]" value="angular"><input type="hidden" name="tags[1]" value="example"><input type="hidden" name="tags[2]" value="testing"><input type="hidden" name="description" value="Angular Example - Testing - specs"><input type="hidden" name="dependencies" value="{&quot;@angular/animations&quot;:&quot;^6.0.0-rc.5&quot;,&quot;@angular/common&quot;:&quot;^6.0.0-rc.5&quot;,&quot;@angular/compiler&quot;:&quot;^6.0.0-rc.5&quot;,&quot;@angular/core&quot;:&quot;^6.0.0-rc.5&quot;,&quot;@angular/forms&quot;:&quot;^6.0.0-rc.5&quot;,&quot;@angular/http&quot;:&quot;^6.0.0-rc.5&quot;,&quot;@angular/platform-browser&quot;:&quot;^6.0.0-rc.5&quot;,&quot;@angular/platform-browser-dynamic&quot;:&quot;^6.0.0-rc.5&quot;,&quot;@angular/router&quot;:&quot;^6.0.0-rc.5&quot;,&quot;angular-in-memory-web-api&quot;:&quot;^0.6.0&quot;,&quot;core-js&quot;:&quot;^2.5.4&quot;,&quot;rxjs&quot;:&quot;6.0.0-uncanny-rc.7&quot;,&quot;web-animations-js&quot;:&quot;^2.3.1&quot;,&quot;zone.js&quot;:&quot;^0.8.24&quot;,&quot;jasmine-core&quot;:&quot;~2.99.1&quot;,&quot;jasmine-marbles&quot;:&quot;^0.3.1&quot;}"></form>
     <script>
       var embedded = 'ctl=1';
       var isEmbedded = window.location.search.indexOf(embedded) > -1;

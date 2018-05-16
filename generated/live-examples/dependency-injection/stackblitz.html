@@ -34,6 +34,7 @@ import { UserService } from './user.service';
     <p>
     <app-heroes id=&quot;authorized&quot; *ngIf=&quot;isAuthorized&quot;></app-heroes>
     <app-heroes id=&quot;unauthorized&quot; *ngIf=&quot;!isAuthorized&quot;></app-heroes>
+    <app-heroes-tsp id=&quot;tspAuthorized&quot; *ngIf=&quot;isAuthorized&quot;></app-heroes-tsp>
     <app-providers></app-providers>
   `
 })
@@ -85,6 +86,7 @@ import { APP_CONFIG, HERO_DI_CONFIG }    from './app.config';
 import { AppComponent } from './app.component';
 import { CarComponent } from './car/car.component';
 import { HeroesComponent } from './heroes/heroes.component';
+import { HeroesTspComponent } from './heroes/heroes-tsp.component';
 import { HeroListComponent } from './heroes/hero-list.component';
 import { InjectorComponent } from './injector.component';
 import { Logger } from './logger.service';
@@ -102,6 +104,7 @@ import { ProvidersModule } from './providers.module';
     AppComponent,
     CarComponent,
     HeroesComponent,
+    HeroesTspComponent,
     HeroListComponent,
     InjectorComponent,
     TestComponent
@@ -338,6 +341,17 @@ export class HeroListComponent {
 Copyright 2017-2018 Google Inc. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at http://angular.io/license
+*/"><input type="hidden" name="files[src/app/heroes/hero.module.ts]" value="import { NgModule } from '@angular/core';
+
+@NgModule({})
+export class HeroModule {
+}
+
+
+/*
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
 */"><input type="hidden" name="files[src/app/heroes/hero.service.provider.ts]" value="/* tslint:disable:one-line */
 import { HeroService } from './hero.service';
 import { Logger }      from '../logger.service';
@@ -361,8 +375,14 @@ can be found in the LICENSE file at http://angular.io/license
 */"><input type="hidden" name="files[src/app/heroes/hero.service.ts]" value="import { Injectable } from '@angular/core';
 import { HEROES }     from './mock-heroes';
 import { Logger }     from '../logger.service';
+import { UserService } from '../user.service';
 
-@Injectable()
+@Injectable({
+  providedIn: 'root',
+  useFactory: (logger: Logger, userService: UserService) =>
+      new HeroService(logger, userService.user.isAuthorized),
+  deps: [Logger, UserService],
+})
 export class HeroService {
   constructor(
     private logger: Logger,
@@ -385,6 +405,28 @@ can be found in the LICENSE file at http://angular.io/license
   name: string;
   isSecret = false;
 }
+
+
+/*
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/"><input type="hidden" name="files[src/app/heroes/heroes-tsp.component.ts]" value="import { Component } from '@angular/core';
+
+/**
+ * A version of `HeroesComponent` that does not provide the `HeroService` (and thus relies on its
+ * `Injectable`-declared provider) in order to function.
+ *
+ * TSP stands for Tree-Shakeable Provider.
+ */
+@Component({
+  selector: 'app-heroes-tsp',
+  template: `
+    <h2>Heroes</h2>
+    <app-hero-list></app-hero-list>
+  `
+})
+export class HeroesTspComponent { }
 
 
 /*
@@ -849,6 +891,58 @@ function it(label: string, test: () => void) {
 Copyright 2017-2018 Google Inc. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at http://angular.io/license
+*/"><input type="hidden" name="files[src/app/tree-shaking/app.module.ts]" value="import { NgModule }      from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule }  from '@angular/router';
+import { ServiceModule } from './service-and-module';
+
+@NgModule({
+  imports: [
+    BrowserModule,
+    RouterModule.forRoot([]),
+    ServiceModule,
+  ],
+})
+export class AppModule {
+}
+
+
+/*
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/"><input type="hidden" name="files[src/app/tree-shaking/service-and-module.ts]" value="import { Injectable, NgModule } from '@angular/core';
+
+@Injectable()
+export class Service {
+  doSomething(): void {
+  }
+}
+
+@NgModule({
+  providers: [Service],
+})
+export class ServiceModule {
+}
+
+
+/*
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/"><input type="hidden" name="files[src/app/tree-shaking/service.ts]" value="import { Injectable } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root',
+})
+export class Service {
+}
+
+
+/*
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
 */"><input type="hidden" name="files[src/app/user.service.ts]" value="import { Injectable } from '@angular/core';
 
 export class User {
@@ -857,7 +951,7 @@ export class User {
     public isAuthorized = false) { }
 }
 
-// Todo: get the user; don't 'new' it.
+// TODO: get the user; don't 'new' it.
 let alice = new User('Alice', true);
 let bob = new User('Bob', false);
 
@@ -885,14 +979,21 @@ can be found in the LICENSE file at http://angular.io/license
 Copyright 2017-2018 Google Inc. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at http://angular.io/license
-*/"><input type="hidden" name="files[src/environments/environment.ts]" value="// The file contents for the current environment will overwrite these during build.
-// The build system defaults to the dev environment which uses `environment.ts`, but if you do
-// `ng build --env=prod` then `environment.prod.ts` will be used instead.
-// The list of which env maps to which file can be found in `.angular-cli.json`.
+*/"><input type="hidden" name="files[src/environments/environment.ts]" value="// This file can be replaced during build by using the `fileReplacements` array.
+// `ng build ---prod` replaces `environment.ts` with `environment.prod.ts`.
+// The list of file replacements can be found in `angular.json`.
 
 export const environment = {
   production: false
 };
+
+/*
+ * In development mode, to ignore zone related error stack frames such as
+ * `zone.run`, `zoneDelegate.invokeTask` for easier debugging, you can
+ * import the following file, but please comment it out in production mode
+ * because it will have performance impact when throw error
+ */
+// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
 
 
 /*
@@ -970,7 +1071,20 @@ import 'core-js/es7/reflect';
  **/
 // import 'web-animations-js';
 
+/**
+ * By default, zone.js will patch all possible macroTask and DomEvents
+ * user can disable parts of macroTask/DomEvents patch by setting following flags
+ */
 
+ // (window as any).__Zone_disable_requestAnimationFrame = true; // disable patch requestAnimationFrame
+ // (window as any).__Zone_disable_on_property = true; // disable patch onProperty such as onclick
+ // (window as any).__zone_symbol__BLACK_LISTED_EVENTS = ['scroll', 'mousemove']; // disable patch specified eventNames
+
+ /*
+ * in IE/Edge developer tools, the addEventListener will also be wrapped by zone.js
+ * with the following flag, it will bypass `zone.js` patch for IE/Edge
+ */
+// (window as any).__Zone_enable_cross_context_check = true;
 
 /***************************************************************************************************
  * Zone JS is required by default for Angular itself.
@@ -1079,67 +1193,145 @@ can be found in the LICENSE file at http://angular.io/license
 Copyright 2017-2018 Google Inc. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at http://angular.io/license
--->"><input type="hidden" name="files[.angular-cli.json]" value="{
-  &quot;$schema&quot;: &quot;./node_modules/@angular/cli/lib/config/schema.json&quot;,
-  &quot;project&quot;: {
-    &quot;name&quot;: &quot;angular.io-example&quot;
-  },
-  &quot;apps&quot;: [
-    {
-      &quot;root&quot;: &quot;src&quot;,
-      &quot;outDir&quot;: &quot;dist&quot;,
-      &quot;assets&quot;: [
-        &quot;assets&quot;,
-        &quot;favicon.ico&quot;
-      ],
-      &quot;index&quot;: &quot;index.html&quot;,
-      &quot;main&quot;: &quot;main.ts&quot;,
-      &quot;polyfills&quot;: &quot;polyfills.ts&quot;,
-      &quot;test&quot;: &quot;test.ts&quot;,
-      &quot;tsconfig&quot;: &quot;tsconfig.app.json&quot;,
-      &quot;testTsconfig&quot;: &quot;tsconfig.spec.json&quot;,
+-->"><input type="hidden" name="files[angular.json]" value="{
+  &quot;$schema&quot;: &quot;./node_modules/@angular-devkit/core/src/workspace/workspace-schema.json&quot;,
+  &quot;version&quot;: 1,
+  &quot;newProjectRoot&quot;: &quot;projects&quot;,
+  &quot;projects&quot;: {
+    &quot;angular.io-example&quot;: {
+      &quot;root&quot;: &quot;&quot;,
+      &quot;projectType&quot;: &quot;application&quot;,
       &quot;prefix&quot;: &quot;app&quot;,
-      &quot;styles&quot;: [
-        &quot;styles.css&quot;
-      ],
-      &quot;scripts&quot;: [],
-      &quot;environmentSource&quot;: &quot;environments/environment.ts&quot;,
-      &quot;environments&quot;: {
-        &quot;dev&quot;: &quot;environments/environment.ts&quot;,
-        &quot;prod&quot;: &quot;environments/environment.prod.ts&quot;
+      &quot;architect&quot;: {
+        &quot;build&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:browser&quot;,
+          &quot;options&quot;: {
+            &quot;outputPath&quot;: &quot;dist/angular.io-example&quot;,
+            &quot;index&quot;: &quot;src/index.html&quot;,
+            &quot;main&quot;: &quot;src/main.ts&quot;,
+            &quot;polyfills&quot;: &quot;src/polyfills.ts&quot;,
+            &quot;tsConfig&quot;: &quot;src/tsconfig.app.json&quot;,
+            &quot;assets&quot;: [
+              {
+                &quot;glob&quot;: &quot;favicon.ico&quot;,
+                &quot;input&quot;: &quot;src&quot;,
+                &quot;output&quot;: &quot;/&quot;
+              },
+              {
+                &quot;glob&quot;: &quot;**/*&quot;,
+                &quot;input&quot;: &quot;src/assets&quot;,
+                &quot;output&quot;: &quot;/assets&quot;
+              }
+            ],
+            &quot;styles&quot;: [
+              {
+                &quot;input&quot;: &quot;src/styles.css&quot;
+              }
+            ],
+            &quot;scripts&quot;: []
+          },
+          &quot;configurations&quot;: {
+            &quot;production&quot;: {
+              &quot;fileReplacements&quot;: [
+                {
+                  &quot;replace&quot;: &quot;src/environments/environment.ts&quot;,
+                  &quot;with&quot;: &quot;src/environments/environment.prod.ts&quot;
+                }
+              ],
+              &quot;optimization&quot;: true,
+              &quot;outputHashing&quot;: &quot;all&quot;,
+              &quot;sourceMap&quot;: false,
+              &quot;extractCss&quot;: true,
+              &quot;namedChunks&quot;: false,
+              &quot;aot&quot;: true,
+              &quot;extractLicenses&quot;: true,
+              &quot;vendorChunk&quot;: false,
+              &quot;buildOptimizer&quot;: true
+            }
+          }
+        },
+        &quot;serve&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:dev-server&quot;,
+          &quot;options&quot;: {
+            &quot;browserTarget&quot;: &quot;angular.io-example:build&quot;
+          },
+          &quot;configurations&quot;: {
+            &quot;production&quot;: {
+              &quot;browserTarget&quot;: &quot;angular.io-example:build:production&quot;
+            }
+          }
+        },
+        &quot;extract-i18n&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:extract-i18n&quot;,
+          &quot;options&quot;: {
+            &quot;browserTarget&quot;: &quot;angular.io-example:build&quot;
+          }
+        },
+        &quot;test&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:karma&quot;,
+          &quot;options&quot;: {
+            &quot;main&quot;: &quot;src/test.ts&quot;,
+            &quot;polyfills&quot;: &quot;src/polyfills.ts&quot;,
+            &quot;tsConfig&quot;: &quot;src/tsconfig.spec.json&quot;,
+            &quot;karmaConfig&quot;: &quot;src/karma.conf.js&quot;,
+            &quot;styles&quot;: [
+              {
+                &quot;input&quot;: &quot;styles.css&quot;
+              }
+            ],
+            &quot;scripts&quot;: [],
+            &quot;assets&quot;: [
+              {
+                &quot;glob&quot;: &quot;favicon.ico&quot;,
+                &quot;input&quot;: &quot;src/&quot;,
+                &quot;output&quot;: &quot;/&quot;
+              },
+              {
+                &quot;glob&quot;: &quot;**/*&quot;,
+                &quot;input&quot;: &quot;src/assets&quot;,
+                &quot;output&quot;: &quot;/assets&quot;
+              }
+            ]
+          }
+        },
+        &quot;lint&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:tslint&quot;,
+          &quot;options&quot;: {
+            &quot;tsConfig&quot;: [
+              &quot;src/tsconfig.app.json&quot;,
+              &quot;src/tsconfig.spec.json&quot;
+            ],
+            &quot;exclude&quot;: [
+              &quot;**/node_modules/**&quot;
+            ]
+          }
+        }
+      }
+    },
+    &quot;angular.io-example-e2e&quot;: {
+      &quot;root&quot;: &quot;e2e/&quot;,
+      &quot;projectType&quot;: &quot;application&quot;,
+      &quot;architect&quot;: {
+        &quot;e2e&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:protractor&quot;,
+          &quot;options&quot;: {
+            &quot;protractorConfig&quot;: &quot;e2e/protractor.conf.js&quot;,
+            &quot;devServerTarget&quot;: &quot;angular.io-example:serve&quot;
+          }
+        },
+        &quot;lint&quot;: {
+          &quot;builder&quot;: &quot;@angular-devkit/build-angular:tslint&quot;,
+          &quot;options&quot;: {
+            &quot;tsConfig&quot;: &quot;e2e/tsconfig.e2e.json&quot;,
+            &quot;exclude&quot;: [
+              &quot;**/node_modules/**&quot;
+            ]
+          }
+        }
       }
     }
-  ],
-  &quot;e2e&quot;: {
-    &quot;protractor&quot;: {
-      &quot;config&quot;: &quot;./protractor.conf.js&quot;
-    }
-  },
-  &quot;lint&quot;: [
-    {
-      &quot;project&quot;: &quot;src/tsconfig.app.json&quot;,
-      &quot;exclude&quot;: &quot;**/node_modules/**&quot;
-    },
-    {
-      &quot;project&quot;: &quot;src/tsconfig.spec.json&quot;,
-      &quot;exclude&quot;: &quot;**/node_modules/**&quot;
-    },
-    {
-      &quot;project&quot;: &quot;e2e/tsconfig.e2e.json&quot;,
-      &quot;exclude&quot;: &quot;**/node_modules/**&quot;
-    }
-  ],
-  &quot;test&quot;: {
-    &quot;karma&quot;: {
-      &quot;config&quot;: &quot;./karma.conf.js&quot;
-    }
-  },
-  &quot;defaults&quot;: {
-    &quot;styleExt&quot;: &quot;css&quot;,
-    &quot;component&quot;: {}
   }
-}
-"><input type="hidden" name="tags[0]" value="angular"><input type="hidden" name="tags[1]" value="example"><input type="hidden" name="tags[2]" value="dependency"><input type="hidden" name="tags[3]" value="di"><input type="hidden" name="description" value="Angular Example - Dependency Injection"><input type="hidden" name="dependencies" value="{&quot;@angular/animations&quot;:&quot;^5.2.0&quot;,&quot;@angular/common&quot;:&quot;^5.2.0&quot;,&quot;@angular/compiler&quot;:&quot;^5.2.0&quot;,&quot;@angular/core&quot;:&quot;^5.2.0&quot;,&quot;@angular/forms&quot;:&quot;^5.2.0&quot;,&quot;@angular/http&quot;:&quot;^5.2.0&quot;,&quot;@angular/platform-browser&quot;:&quot;^5.2.0&quot;,&quot;@angular/platform-browser-dynamic&quot;:&quot;^5.2.0&quot;,&quot;@angular/router&quot;:&quot;^5.2.0&quot;,&quot;angular-in-memory-web-api&quot;:&quot;~0.5.0&quot;,&quot;core-js&quot;:&quot;^2.4.1&quot;,&quot;rxjs&quot;:&quot;^5.5.6&quot;,&quot;zone.js&quot;:&quot;^0.8.19&quot;,&quot;jasmine-core&quot;:&quot;~2.8.0&quot;,&quot;jasmine-marbles&quot;:&quot;~0.2.0&quot;}"></form>
+}"><input type="hidden" name="tags[0]" value="angular"><input type="hidden" name="tags[1]" value="example"><input type="hidden" name="tags[2]" value="dependency"><input type="hidden" name="tags[3]" value="di"><input type="hidden" name="description" value="Angular Example - Dependency Injection"><input type="hidden" name="dependencies" value="{&quot;@angular/animations&quot;:&quot;^6.0.0-rc.5&quot;,&quot;@angular/common&quot;:&quot;^6.0.0-rc.5&quot;,&quot;@angular/compiler&quot;:&quot;^6.0.0-rc.5&quot;,&quot;@angular/core&quot;:&quot;^6.0.0-rc.5&quot;,&quot;@angular/forms&quot;:&quot;^6.0.0-rc.5&quot;,&quot;@angular/http&quot;:&quot;^6.0.0-rc.5&quot;,&quot;@angular/platform-browser&quot;:&quot;^6.0.0-rc.5&quot;,&quot;@angular/platform-browser-dynamic&quot;:&quot;^6.0.0-rc.5&quot;,&quot;@angular/router&quot;:&quot;^6.0.0-rc.5&quot;,&quot;angular-in-memory-web-api&quot;:&quot;^0.6.0&quot;,&quot;core-js&quot;:&quot;^2.5.4&quot;,&quot;rxjs&quot;:&quot;6.0.0-uncanny-rc.7&quot;,&quot;web-animations-js&quot;:&quot;^2.3.1&quot;,&quot;zone.js&quot;:&quot;^0.8.24&quot;,&quot;jasmine-core&quot;:&quot;~2.99.1&quot;,&quot;jasmine-marbles&quot;:&quot;^0.3.1&quot;}"></form>
     <script>
       var embedded = 'ctl=1';
       var isEmbedded = window.location.search.indexOf(embedded) > -1;

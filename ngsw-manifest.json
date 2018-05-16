@@ -2,18 +2,6 @@
   "external": {
     "urls": [
       {
-        "url": "https://fonts.googleapis.com/css?family=Droid+Sans+Mono"
-      },
-      {
-        "url": "https://fonts.gstatic.com/s/droidsansmono/v7/ns-m2xQYezAtqh7ai59hJYdJ2JT0J65PSe7wdxAnx_I.woff2"
-      },
-      {
-        "url": "https://fonts.googleapis.com/icon?family=Material+Icons"
-      },
-      {
-        "url": "https://fonts.gstatic.com/s/materialicons/v22/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2"
-      },
-      {
         "url": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       }
     ]
@@ -21,26 +9,41 @@
   "routing": {
     "index": "/index.html",
     "routes": {
-      "^(?!/styleguide|/docs/.|(?:/guide/(?:cli-quickstart|metadata|ngmodule|service-worker-(?:getstart|comm|configref)|learning-angular)|/news)(?:\\.html|/)?$|/testing|/api/(?:.+/[^/]+-|platform-browser/AnimationDriver|testing|api/|(?:common/(?:NgModel|Control|MaxLengthValidator))|(?:[^/]+/)?(?:NgFor(?:$|-)|AnimationStateDeclarationMetadata|CORE_DIRECTIVES|PLATFORM_PIPES|DirectiveMetadata|HTTP_PROVIDERS))|.*/stackblitz(?:\\.html)?$|.*\\.[^/.]+$)": {
+      "^(?!/styleguide|/docs/.|(?:/guide/(?:cli-quickstart|metadata|ngmodule|service-worker-(?:getstart|comm|configref)|learning-angular)|/news)(?:\\.html|/)?$|/testing|/api/(?:.+/[^/]+-|platform-browser/AnimationDriver|testing/|api/|animate/|(?:common/(?:NgModel|Control|MaxLengthValidator))|(?:[^/]+/)?(?:NgFor(?:$|-)|AnimationStateDeclarationMetadata|CORE_DIRECTIVES|PLATFORM_PIPES|DirectiveMetadata|HTTP_PROVIDERS))|.*/stackblitz(?:\\.html)?(?:\\?.*)?$|.*\\.[^/.]+$)": {
         "match": "regex"
       }
     }
   },
   "static": {
     "urls": {
-      "/3rdpartylicenses.txt": "3d27548e8f986569a7e240c76750074d027dc6d8",
-      "/embedded.module.a3cc90c8fdaafa954e1c.chunk.js": "59d5033910ddb3f08ce33010ed69686f50343f8c",
+      "/12.50857b4475720140b255.js": "4f0f700012cddf9aeb56abc2fb7fa7c8a500be62",
+      "/3rdpartylicenses.txt": "aa97777c135263b866214aaeb944c76bed85d1dc",
+      "/announcement-bar-announcement-bar-module-ngfactory.1936d57acec689195804.js": "488bffe63aaa33c513816d4d1f4524f87966672e",
+      "/api-api-list-module-ngfactory.2fd04bc26a8e578c1bda.js": "4c1c44a5fd589e1802507ab79c404df1733f43e7",
+      "/code-code-example-module-ngfactory.d0ec50584c7428d1d6ed.js": "29004ece30c3dfae7fd67b5fcc33a47c8202b53c",
+      "/code-code-example-module-ngfactory~code-code-tabs-module-ngfactory.6a5aabadc81dbdfa0f4e.js": "80f7b7bc7a00444f45416dc5ba0a9e1c387b21b3",
+      "/code-code-tabs-module-ngfactory.8315a94f020cd25fe92d.js": "fa80d6b61888edaefb74031490d414a3c7f92c1d",
+      "/contributor-contributor-list-module-ngfactory.d1e1579f4455b4510ee4.js": "7186ce1618479aec3ed3fd64eb0aa7b3e343c026",
+      "/current-location-current-location-module-ngfactory.f94bfe4754b66577c07b.js": "a69f8f485364248198c401c2b6f2ddb19ea20315",
+      "/expandable-section-expandable-section-module-ngfactory.e136a5c97991a8565799.js": "2771dc6603bb790352c0903a9ec4b8c90e9b88b1",
       "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
       "/google385281288605d160.html": "50440aea2b4d15588fb03cd1d1f3a37685b73e3d",
-      "/index.html": "735361e36a26bb2af020107841623fe625ba6090",
-      "/inline.20940a0afb7c3efa270b.bundle.js": "bd9a828f7636238d471396397b56d43a6a0e195d",
-      "/main.bc5f8eec087f5fb0c7f0.bundle.js": "ec0c1d458957c5215c9034f3903f9333327b7d6f",
-      "/polyfills.d6af4823c881cfb7d2b2.bundle.js": "6fbd92c58e4a5e64a1c38e6598b46d496152fd98",
-      "/prettify.687659fef7c0b3dd2c45.chunk.js": "225535c3e83335b444fa2cf3ff45ee75794e7b7c",
+      "/index.html": "d50ac1b61d6d662eae207685388a2f487e506fb2",
+      "/live-example-live-example-module-ngfactory.76888e8a441aab262101.js": "6b1f019d55a7625d9196b43cb4ce854e2493da44",
+      "/main.e580488e21fdad9d749c.js": "03ea9b9ac2f32e41231f782aaa01f8679f1c4aac",
+      "/polyfills.56dafdd128abda80a86c.js": "867e191560d219ab8f4c5549e8cabbf0a94bf9a5",
       "/pwa-manifest.json": "3ad4fe7ea85f4f0f7b1a43c51795dfec915f124c",
-      "/styles.2f51f7dbdc977f75d55f.bundle.css": "ecdee4bf9428249657772d27e87d3fbe3022b482",
-      "/styles.2f51f7dbdc977f75d55f.bundle.css.map": "5eec9df0eebe1636a08fa2f0694b32ac09476745",
+      "/resource-resource-list-module-ngfactory.61511286c8ae642c9f6c.js": "144723752bbe1cf2cf92c21bedcb0cfcc329e689",
+      "/runtime.e7e60529879ffb07e28e.js": "be9541b24fb30e2b5890aa99fca8826b6992b098",
+      "/search-file-not-found-search-module-ngfactory.47eeab87e03d13f3311b.js": "69fbfbd8ac98de6b7a769f06e7c913faac817311",
+      "/stats.json": "2b82d0ee60f738f7a826d2d844357e9ed6365ae1",
+      "/styles.40eb4c2fbba3bcf95698.css": "d782c82e9f887d1f6c9dc98fa3de5789cec15d17",
+      "/styles.40eb4c2fbba3bcf95698.css.map": "889424e784b94c984f9ed49dc8ea48f4e3834af0",
       "/app/search/search-worker.js": "bb91e4b16184065e78f6baa42d87d7235ab6209e",
+      "/assets/fonts/6NUO8FuJNQ2MbkrZ5-J8lKFrp7pRef2u.ttf": "a849d77a590b0ad5a9ce3dc4344c1c18b43a9b1d",
+      "/assets/fonts/Droid_Sans_Mono.css": "80930d161ffd7e3de55ac53ead8147610ea25370",
+      "/assets/fonts/Material_Icons.css": "1a330c32715f1b333ec135e6355962aafb0b5d16",
+      "/assets/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNZ.ttf": "c635b69a99485fa9273c627d9b73c919866b4239",
       "/assets/images/favicons/apple-touch-icon-144x144.png": "77224dc229075fc690b26658578fdd1c70dc2ca3",
       "/assets/images/favicons/favicon-16x16.png": "cc30aff2ff612b8049465c55c6515cf5777ec8c7",
       "/assets/images/favicons/favicon-194x194.png": "c7c48f063a958e8dcca1d36babbd16618619fa29",
@@ -58,30 +61,33 @@
       "/assets/images/logos/angular/shield-large.svg": "dc69ca1485c8a23b34c1a1ebb0303796c7023b06",
       "/assets/images/logos/angularjs/AngularJS-Shield.svg": "7b36b7e3d1cb3a426a4f4a42dd01ca5a4ef84d40",
       "/assets/images/support/angular-404.svg": "507833dd280a6abfbb177b33fc7ba15a2906c77f",
+      "/assets/js/analytics.js": "85f77da7711ac89a15348be015119ed2d496b080",
+      "/assets/js/custom-elements.min.js": "b636c94ff31489ecf086239a293a696b20e48a34",
       "/assets/js/lunr.min.js": "2d887e5149fb94a68c4bcd6fd5e2f43f0737e4f9",
+      "/assets/js/native-shim.js": "30980dca72078d5a11e998f38c124d250bc07963",
       "/assets/js/prettify.js": "4bd1e40c55b5514ebb1772bbb288c19d9ead6ca8",
-      "/generated/announcements.json": "776891f53cd7e6b92d44987aadb6c676e25d4a15",
-      "/generated/contributors.json": "9694c69efab8863bbc3ccf35b7952144588315c6",
-      "/generated/ie-polyfills.min.js": "5cf09310adb60d45c9b32d181e0727562b3a47be",
-      "/generated/navigation.json": "f7bd19b99ec9044cae71cc1eac5b403d8451cd21",
-      "/generated/resources.json": "a9b07154d470563c82ae0abd395ef65297deb83a",
-      "/generated/sitemap.xml": "a09fbed83bca334d8fcbf97ece20f8fa12ce8c28",
-      "/generated/docs/about.json": "5affda536215195aeb99e0b5a11b347b5302a1af",
-      "/generated/docs/api.json": "4955ee917d6c45e4fb37a01d75fc26c20b97e1bf",
+      "/generated/announcements.json": "98f0091cfb659bb6496dca96641dd5d5ad92251f",
+      "/generated/contributors.json": "98bebbc5ae1f3f7a59f27b3a2e5936e6b622cdba",
+      "/generated/ie-polyfills.min.js": "c9f10f96c438b6a527a1b08051a514db06619e41",
+      "/generated/navigation.json": "d4630031ddb3261eff56f4e727a324a57739583b",
+      "/generated/resources.json": "b4a31c399a7437399f5a5c3db49249117e944fb3",
+      "/generated/sitemap.xml": "558e470272339da2431c31a5272260d52128501e",
+      "/generated/docs/about.json": "31a9ec376dd4a155d649ebbe92bd5292afd49285",
+      "/generated/docs/api.json": "1af5bdbc5b1f58ce069c5ab9623d56a1303165b7",
       "/generated/docs/contribute.json": "7e39baf8086ca501c1e049f30c62197ea6039f86",
-      "/generated/docs/docs.json": "cb25259ce5716893438738d86cfeb1899f41ff80",
-      "/generated/docs/events.json": "f07e8b952071f9e2b429aa18fe5f1037c7059b78",
-      "/generated/docs/features.json": "a61bd7747bde900b01df7fbb43ffb75c708a62c9",
-      "/generated/docs/file-not-found.json": "6727ede63230834d63b178c833c8c9db097d46ee",
+      "/generated/docs/docs.json": "b2d47a987b0ed551369ee60cf17357cdf0d1fb3e",
+      "/generated/docs/events.json": "f278c31e5f476f62ab7f0001ad965add141dae6a",
+      "/generated/docs/features.json": "d9ea84f08e73d87a88db7ee6b5815ac63f08ae7d",
+      "/generated/docs/file-not-found.json": "2c048bc7cbb715b7457c267ae8f7db11c5a47238",
       "/generated/docs/index.json": "4ccef0b987431e37a14d4455302dc68eeba8ac0a",
       "/generated/docs/license.json": "2889974180ad94500616c4c21b0bf527d504a203",
-      "/generated/docs/overview-dump.html": "05aa2fe1ce80848c2a3e28ca41f37f4709c26551",
-      "/generated/docs/presskit.json": "bdb4ab6975e2e736aca5c6af2a313d64f8169911",
-      "/generated/docs/resources-contributing.json": "d944c4cc70226b165ef0e5d6b1c5e73a325ca6bd",
+      "/generated/docs/overview-dump.html": "c941814e66ab7309c8de22534532012dbed0424f",
+      "/generated/docs/presskit.json": "7cc264e0b470a2489e6c709ee9dd1a193ffd068e",
+      "/generated/docs/resources-contributing.json": "8c652a0618770746cbf6f83ae520d846c296e1c6",
       "/generated/docs/resources.json": "62545e58e50d036b77382038280cb05604f1f189",
-      "/generated/docs/test.json": "1d90a470a6ea218929367dfdb6fae5a9c1346c4e",
-      "/generated/docs/tutorial.json": "a44d7976500408404a011653372bc106d7c0fb85",
-      "/generated/docs/api/api-list.json": "414653ade60e108261008c45da91d997d999bc37",
+      "/generated/docs/test.json": "fee71b273cda0fcf8c2ad2305486a704b180e798",
+      "/generated/docs/tutorial.json": "1b3f65bcfd0c5cef19775f9cadb5895c724040b0",
+      "/generated/docs/api/api-list.json": "a59fd1eafdb7b1fbbae6875eed842d4a54314ee5",
       "/generated/images/marketing/features/feature-icon.svg": "2cf6c1c11faee80b101b38c91f02184dada8cbe2",
       "/generated/images/marketing/home/angular-connect.png": "3380b4e37acba46a21c6df4b191afe9088a53e2f",
       "/generated/images/marketing/home/angular-mix.png": "17d1f12fbc1931fb71034cca93dda29cb31c8184",

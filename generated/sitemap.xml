@@ -1,2115 +1,2109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://angular.io/guide/ajs-quick-reference</loc>
+    <loc>https://angular.cn/guide/ajs-quick-reference</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/animations</loc>
+    <loc>https://angular.cn/guide/animations</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/aot-compiler</loc>
+    <loc>https://angular.cn/guide/aot-compiler</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/api-page-class</loc>
+    <loc>https://angular.cn/guide/api-page-class</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/architecture</loc>
+    <loc>https://angular.cn/guide/architecture-components</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/attribute-directives</loc>
+    <loc>https://angular.cn/guide/architecture-modules</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/bootstrapping</loc>
+    <loc>https://angular.cn/guide/architecture-next-steps</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/browser-support</loc>
+    <loc>https://angular.cn/guide/architecture-services</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/change-log</loc>
+    <loc>https://angular.cn/guide/architecture</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/cheatsheet</loc>
+    <loc>https://angular.cn/guide/attribute-directives</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/comparing-observables</loc>
+    <loc>https://angular.cn/guide/bootstrapping</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/component-interaction</loc>
+    <loc>https://angular.cn/guide/browser-support</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/component-styles</loc>
+    <loc>https://angular.cn/guide/change-log</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/dependency-injection-in-action</loc>
+    <loc>https://angular.cn/guide/cheatsheet</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/dependency-injection-pattern</loc>
+    <loc>https://angular.cn/guide/comparing-observables</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/dependency-injection</loc>
+    <loc>https://angular.cn/guide/component-interaction</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/deployment</loc>
+    <loc>https://angular.cn/guide/component-styles</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/displaying-data</loc>
+    <loc>https://angular.cn/guide/custom-elements</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/docs-style-guide</loc>
+    <loc>https://angular.cn/guide/dependency-injection-in-action</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/dynamic-component-loader</loc>
+    <loc>https://angular.cn/guide/dependency-injection-pattern</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/dynamic-form</loc>
+    <loc>https://angular.cn/guide/dependency-injection</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/entry-components</loc>
+    <loc>https://angular.cn/guide/deployment</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/feature-modules</loc>
+    <loc>https://angular.cn/guide/displaying-data</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/form-validation</loc>
+    <loc>https://angular.cn/guide/docs-style-guide</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/forms</loc>
+    <loc>https://angular.cn/guide/dynamic-component-loader</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/frequent-ngmodules</loc>
+    <loc>https://angular.cn/guide/dynamic-form</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/glossary</loc>
+    <loc>https://angular.cn/guide/elements</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/hierarchical-dependency-injection</loc>
+    <loc>https://angular.cn/guide/entry-components</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/http</loc>
+    <loc>https://angular.cn/guide/feature-modules</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/i18n</loc>
+    <loc>https://angular.cn/guide/form-validation</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/language-service</loc>
+    <loc>https://angular.cn/guide/forms</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/lazy-loading-ngmodules</loc>
+    <loc>https://angular.cn/guide/frequent-ngmodules</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/lifecycle-hooks</loc>
+    <loc>https://angular.cn/guide/glossary</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/module-types</loc>
+    <loc>https://angular.cn/guide/hierarchical-dependency-injection</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/ngmodule-api</loc>
+    <loc>https://angular.cn/guide/http</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/ngmodule-faq</loc>
+    <loc>https://angular.cn/guide/i18n</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/ngmodule-vs-jsmodule</loc>
+    <loc>https://angular.cn/guide/language-service</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/ngmodules</loc>
+    <loc>https://angular.cn/guide/lazy-loading-ngmodules</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/npm-packages</loc>
+    <loc>https://angular.cn/guide/lifecycle-hooks</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/observables-in-angular</loc>
+    <loc>https://angular.cn/guide/module-types</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/observables</loc>
+    <loc>https://angular.cn/guide/ngmodule-api</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/pipes</loc>
+    <loc>https://angular.cn/guide/ngmodule-faq</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/practical-observable-usage</loc>
+    <loc>https://angular.cn/guide/ngmodule-vs-jsmodule</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/providers</loc>
+    <loc>https://angular.cn/guide/ngmodules</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/quickstart</loc>
+    <loc>https://angular.cn/guide/npm-packages</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/reactive-forms</loc>
+    <loc>https://angular.cn/guide/observables-in-angular</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/router</loc>
+    <loc>https://angular.cn/guide/observables</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/rx-library</loc>
+    <loc>https://angular.cn/guide/pipes</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/security</loc>
+    <loc>https://angular.cn/guide/practical-observable-usage</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/service-worker-communications</loc>
+    <loc>https://angular.cn/guide/providers</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/service-worker-config</loc>
+    <loc>https://angular.cn/guide/quickstart</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/service-worker-devops</loc>
+    <loc>https://angular.cn/guide/reactive-forms</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/service-worker-getting-started</loc>
+    <loc>https://angular.cn/guide/releases</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/service-worker-intro</loc>
+    <loc>https://angular.cn/guide/router</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/set-document-title</loc>
+    <loc>https://angular.cn/guide/rx-library</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/setup-systemjs-anatomy</loc>
+    <loc>https://angular.cn/guide/security</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/setup</loc>
+    <loc>https://angular.cn/guide/service-worker-communications</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/sharing-ngmodules</loc>
+    <loc>https://angular.cn/guide/service-worker-config</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/singleton-services</loc>
+    <loc>https://angular.cn/guide/service-worker-devops</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/structural-directives</loc>
+    <loc>https://angular.cn/guide/service-worker-getting-started</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/styleguide</loc>
+    <loc>https://angular.cn/guide/service-worker-intro</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/template-syntax</loc>
+    <loc>https://angular.cn/guide/set-document-title</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/testing-observables</loc>
+    <loc>https://angular.cn/guide/setup-systemjs-anatomy</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/testing</loc>
+    <loc>https://angular.cn/guide/setup</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/typescript-configuration</loc>
+    <loc>https://angular.cn/guide/sharing-ngmodules</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/universal</loc>
+    <loc>https://angular.cn/guide/singleton-services</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/upgrade</loc>
+    <loc>https://angular.cn/guide/structural-directives</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/user-input</loc>
+    <loc>https://angular.cn/guide/styleguide</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/visual-studio-2015</loc>
+    <loc>https://angular.cn/guide/template-syntax</loc>
   </url>
   <url>
-    <loc>https://angular.io/guide/webpack</loc>
+    <loc>https://angular.cn/guide/testing-observables</loc>
   </url>
   <url>
-    <loc>https://angular.io/tutorial</loc>
+    <loc>https://angular.cn/guide/testing</loc>
   </url>
   <url>
-    <loc>https://angular.io/tutorial/toh-pt0</loc>
+    <loc>https://angular.cn/guide/typescript-configuration</loc>
   </url>
   <url>
-    <loc>https://angular.io/tutorial/toh-pt1</loc>
+    <loc>https://angular.cn/guide/universal</loc>
   </url>
   <url>
-    <loc>https://angular.io/tutorial/toh-pt2</loc>
+    <loc>https://angular.cn/guide/updating</loc>
   </url>
   <url>
-    <loc>https://angular.io/tutorial/toh-pt3</loc>
+    <loc>https://angular.cn/guide/upgrade</loc>
   </url>
   <url>
-    <loc>https://angular.io/tutorial/toh-pt4</loc>
+    <loc>https://angular.cn/guide/user-input</loc>
   </url>
   <url>
-    <loc>https://angular.io/tutorial/toh-pt5</loc>
+    <loc>https://angular.cn/guide/visual-studio-2015</loc>
   </url>
   <url>
-    <loc>https://angular.io/tutorial/toh-pt6</loc>
+    <loc>https://angular.cn/guide/webpack</loc>
   </url>
   <url>
-    <loc>https://angular.io/about</loc>
+    <loc>https://angular.cn/tutorial</loc>
   </url>
   <url>
-    <loc>https://angular.io/api</loc>
+    <loc>https://angular.cn/tutorial/toh-pt0</loc>
   </url>
   <url>
-    <loc>https://angular.io/contribute</loc>
+    <loc>https://angular.cn/tutorial/toh-pt1</loc>
   </url>
   <url>
-    <loc>https://angular.io/docs</loc>
+    <loc>https://angular.cn/tutorial/toh-pt2</loc>
   </url>
   <url>
-    <loc>https://angular.io/events</loc>
+    <loc>https://angular.cn/tutorial/toh-pt3</loc>
   </url>
   <url>
-    <loc>https://angular.io/features</loc>
+    <loc>https://angular.cn/tutorial/toh-pt4</loc>
   </url>
   <url>
-    <loc>https://angular.io/</loc>
+    <loc>https://angular.cn/tutorial/toh-pt5</loc>
   </url>
   <url>
-    <loc>https://angular.io/presskit</loc>
+    <loc>https://angular.cn/tutorial/toh-pt6</loc>
   </url>
   <url>
-    <loc>https://angular.io/resources-contributing</loc>
+    <loc>https://angular.cn/about</loc>
   </url>
   <url>
-    <loc>https://angular.io/resources</loc>
+    <loc>https://angular.cn/api</loc>
   </url>
   <url>
-    <loc>https://angular.io/license</loc>
+    <loc>https://angular.cn/contribute</loc>
   </url>
   <url>
-    <loc>https://angular.io/announcements</loc>
+    <loc>https://angular.cn/docs</loc>
   </url>
   <url>
-    <loc>https://angular.io/translations/cn/about</loc>
+    <loc>https://angular.cn/events</loc>
   </url>
   <url>
-    <loc>https://angular.io/translations/cn/home</loc>
+    <loc>https://angular.cn/features</loc>
   </url>
   <url>
-    <loc>https://angular.io/translations/cn/news</loc>
+    <loc>https://angular.cn/</loc>
   </url>
   <url>
-    <loc>https://angular.io/translations/cn/nice-angular</loc>
+    <loc>https://angular.cn/presskit</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations</loc>
+    <loc>https://angular.cn/resources-contributing</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationBuilder</loc>
+    <loc>https://angular.cn/resources</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationFactory</loc>
+    <loc>https://angular.cn/license</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationEvent</loc>
+    <loc>https://angular.cn/announcements</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AUTO_STYLE</loc>
+    <loc>https://angular.cn/translations/cn/about</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimateChildOptions</loc>
+    <loc>https://angular.cn/translations/cn/home</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimateTimings</loc>
+    <loc>https://angular.cn/translations/cn/news</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationAnimateChildMetadata</loc>
+    <loc>https://angular.cn/translations/cn/nice-angular</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationAnimateMetadata</loc>
+    <loc>https://angular.cn/api/animations</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationAnimateRefMetadata</loc>
+    <loc>https://angular.cn/api/animations/AnimationBuilder</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationGroupMetadata</loc>
+    <loc>https://angular.cn/api/animations/AnimationFactory</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationKeyframesSequenceMetadata</loc>
+    <loc>https://angular.cn/api/animations/AnimationEvent</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationMetadata</loc>
+    <loc>https://angular.cn/api/animations/AUTO_STYLE</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationMetadataType</loc>
+    <loc>https://angular.cn/api/animations/AnimateChildOptions</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationOptions</loc>
+    <loc>https://angular.cn/api/animations/AnimateTimings</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationQueryMetadata</loc>
+    <loc>https://angular.cn/api/animations/AnimationAnimateChildMetadata</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationQueryOptions</loc>
+    <loc>https://angular.cn/api/animations/AnimationAnimateMetadata</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationReferenceMetadata</loc>
+    <loc>https://angular.cn/api/animations/AnimationAnimateRefMetadata</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationSequenceMetadata</loc>
+    <loc>https://angular.cn/api/animations/AnimationGroupMetadata</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationStaggerMetadata</loc>
+    <loc>https://angular.cn/api/animations/AnimationKeyframesSequenceMetadata</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationStateMetadata</loc>
+    <loc>https://angular.cn/api/animations/AnimationMetadata</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationStyleMetadata</loc>
+    <loc>https://angular.cn/api/animations/AnimationMetadataType</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationTransitionMetadata</loc>
+    <loc>https://angular.cn/api/animations/AnimationOptions</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationTriggerMetadata</loc>
+    <loc>https://angular.cn/api/animations/AnimationQueryMetadata</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/animate</loc>
+    <loc>https://angular.cn/api/animations/AnimationQueryOptions</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/animateChild</loc>
+    <loc>https://angular.cn/api/animations/AnimationReferenceMetadata</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/animation</loc>
+    <loc>https://angular.cn/api/animations/AnimationSequenceMetadata</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/group</loc>
+    <loc>https://angular.cn/api/animations/AnimationStaggerMetadata</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/keyframes</loc>
+    <loc>https://angular.cn/api/animations/AnimationStateMetadata</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/query</loc>
+    <loc>https://angular.cn/api/animations/AnimationStyleMetadata</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/sequence</loc>
+    <loc>https://angular.cn/api/animations/AnimationTransitionMetadata</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/stagger</loc>
+    <loc>https://angular.cn/api/animations/AnimationTriggerMetadata</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/state</loc>
+    <loc>https://angular.cn/api/animations/animate</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/style</loc>
+    <loc>https://angular.cn/api/animations/animateChild</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/transition</loc>
+    <loc>https://angular.cn/api/animations/animation</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/trigger</loc>
+    <loc>https://angular.cn/api/animations/group</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/useAnimation</loc>
+    <loc>https://angular.cn/api/animations/keyframes</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/AnimationPlayer</loc>
+    <loc>https://angular.cn/api/animations/query</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/NoopAnimationPlayer</loc>
+    <loc>https://angular.cn/api/animations/sequence</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/browser</loc>
+    <loc>https://angular.cn/api/animations/stagger</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/browser/AnimationDriver</loc>
+    <loc>https://angular.cn/api/animations/state</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/browser/testing</loc>
+    <loc>https://angular.cn/api/animations/style</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/browser/testing/MockAnimationDriver</loc>
+    <loc>https://angular.cn/api/animations/transition</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/animations/browser/testing/MockAnimationPlayer</loc>
+    <loc>https://angular.cn/api/animations/trigger</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http</loc>
+    <loc>https://angular.cn/api/animations/useAnimation</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpBackend</loc>
+    <loc>https://angular.cn/api/animations/AnimationPlayer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpHandler</loc>
+    <loc>https://angular.cn/api/animations/NoopAnimationPlayer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpClient</loc>
+    <loc>https://angular.cn/api/animations/browser</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpHeaders</loc>
+    <loc>https://angular.cn/api/animations/browser/AnimationDriver</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HTTP_INTERCEPTORS</loc>
+    <loc>https://angular.cn/api/animations/browser/testing</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpInterceptor</loc>
+    <loc>https://angular.cn/api/animations/browser/testing/MockAnimationDriver</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/JsonpClientBackend</loc>
+    <loc>https://angular.cn/api/animations/browser/testing/MockAnimationPlayer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/JsonpInterceptor</loc>
+    <loc>https://angular.cn/api/common/http</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpClientJsonpModule</loc>
+    <loc>https://angular.cn/api/common/http/HttpBackend</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpClientModule</loc>
+    <loc>https://angular.cn/api/common/http/HttpHandler</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpClientXsrfModule</loc>
+    <loc>https://angular.cn/api/common/http/HttpClient</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpParameterCodec</loc>
+    <loc>https://angular.cn/api/common/http/HttpHeaders</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpParams</loc>
+    <loc>https://angular.cn/api/common/http/HTTP_INTERCEPTORS</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpUrlEncodingCodec</loc>
+    <loc>https://angular.cn/api/common/http/HttpInterceptor</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpRequest</loc>
+    <loc>https://angular.cn/api/common/http/JsonpClientBackend</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpDownloadProgressEvent</loc>
+    <loc>https://angular.cn/api/common/http/JsonpInterceptor</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpErrorResponse</loc>
+    <loc>https://angular.cn/api/common/http/HttpClientJsonpModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpEvent</loc>
+    <loc>https://angular.cn/api/common/http/HttpClientModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpEventType</loc>
+    <loc>https://angular.cn/api/common/http/HttpClientXsrfModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpHeaderResponse</loc>
+    <loc>https://angular.cn/api/common/http/HttpParameterCodec</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpProgressEvent</loc>
+    <loc>https://angular.cn/api/common/http/HttpParams</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpResponse</loc>
+    <loc>https://angular.cn/api/common/http/HttpUrlEncodingCodec</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpResponseBase</loc>
+    <loc>https://angular.cn/api/common/http/HttpRequest</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpSentEvent</loc>
+    <loc>https://angular.cn/api/common/http/HttpDownloadProgressEvent</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpUserEvent</loc>
+    <loc>https://angular.cn/api/common/http/HttpErrorResponse</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpXhrBackend</loc>
+    <loc>https://angular.cn/api/common/http/HttpEvent</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/XhrFactory</loc>
+    <loc>https://angular.cn/api/common/http/HttpEventType</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/HttpXsrfTokenExtractor</loc>
+    <loc>https://angular.cn/api/common/http/HttpHeaderResponse</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/testing</loc>
+    <loc>https://angular.cn/api/common/http/HttpProgressEvent</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/testing/HttpTestingController</loc>
+    <loc>https://angular.cn/api/common/http/HttpResponse</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/testing/RequestMatch</loc>
+    <loc>https://angular.cn/api/common/http/HttpResponseBase</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/testing/HttpClientTestingModule</loc>
+    <loc>https://angular.cn/api/common/http/HttpSentEvent</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/http/testing/TestRequest</loc>
+    <loc>https://angular.cn/api/common/http/HttpUserEvent</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common</loc>
+    <loc>https://angular.cn/api/common/http/HttpXhrBackend</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/formatDate</loc>
+    <loc>https://angular.cn/api/common/http/XhrFactory</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/formatCurrency</loc>
+    <loc>https://angular.cn/api/common/http/HttpXsrfTokenExtractor</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/formatNumber</loc>
+    <loc>https://angular.cn/api/common/http/testing</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/formatPercent</loc>
+    <loc>https://angular.cn/api/common/http/testing/HttpTestingController</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/NgLocaleLocalization</loc>
+    <loc>https://angular.cn/api/common/http/testing/RequestMatch</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/NgLocalization</loc>
+    <loc>https://angular.cn/api/common/http/testing/HttpClientTestingModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/registerLocaleData</loc>
+    <loc>https://angular.cn/api/common/http/testing/TestRequest</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/Plural</loc>
+    <loc>https://angular.cn/api/common</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/NumberFormatStyle</loc>
+    <loc>https://angular.cn/api/common/formatDate</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/FormStyle</loc>
+    <loc>https://angular.cn/api/common/formatCurrency</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/Time</loc>
+    <loc>https://angular.cn/api/common/formatNumber</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/TranslationWidth</loc>
+    <loc>https://angular.cn/api/common/formatPercent</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/FormatWidth</loc>
+    <loc>https://angular.cn/api/common/NgLocaleLocalization</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/NumberSymbol</loc>
+    <loc>https://angular.cn/api/common/NgLocalization</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/WeekDay</loc>
+    <loc>https://angular.cn/api/common/registerLocaleData</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/getNumberOfCurrencyDigits</loc>
+    <loc>https://angular.cn/api/common/Plural</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/getCurrencySymbol</loc>
+    <loc>https://angular.cn/api/common/NumberFormatStyle</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/getLocaleDayPeriods</loc>
+    <loc>https://angular.cn/api/common/FormStyle</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/getLocaleDayNames</loc>
+    <loc>https://angular.cn/api/common/Time</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/getLocaleMonthNames</loc>
+    <loc>https://angular.cn/api/common/TranslationWidth</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/getLocaleId</loc>
+    <loc>https://angular.cn/api/common/FormatWidth</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/getLocaleEraNames</loc>
+    <loc>https://angular.cn/api/common/NumberSymbol</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/getLocaleWeekEndRange</loc>
+    <loc>https://angular.cn/api/common/WeekDay</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/getLocaleFirstDayOfWeek</loc>
+    <loc>https://angular.cn/api/common/getNumberOfCurrencyDigits</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/getLocaleDateFormat</loc>
+    <loc>https://angular.cn/api/common/getCurrencySymbol</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/getLocaleDateTimeFormat</loc>
+    <loc>https://angular.cn/api/common/getLocaleDayPeriods</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/getLocaleExtraDayPeriodRules</loc>
+    <loc>https://angular.cn/api/common/getLocaleDayNames</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/getLocaleExtraDayPeriods</loc>
+    <loc>https://angular.cn/api/common/getLocaleMonthNames</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/getLocalePluralCase</loc>
+    <loc>https://angular.cn/api/common/getLocaleId</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/getLocaleTimeFormat</loc>
+    <loc>https://angular.cn/api/common/getLocaleEraNames</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/getLocaleNumberSymbol</loc>
+    <loc>https://angular.cn/api/common/getLocaleWeekEndRange</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/getLocaleNumberFormat</loc>
+    <loc>https://angular.cn/api/common/getLocaleFirstDayOfWeek</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/getLocaleCurrencyName</loc>
+    <loc>https://angular.cn/api/common/getLocaleDateFormat</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/getLocaleCurrencySymbol</loc>
+    <loc>https://angular.cn/api/common/getLocaleDateTimeFormat</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/CommonModule</loc>
+    <loc>https://angular.cn/api/common/getLocaleExtraDayPeriodRules</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/DeprecatedI18NPipesModule</loc>
+    <loc>https://angular.cn/api/common/getLocaleExtraDayPeriods</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/NgClass</loc>
+    <loc>https://angular.cn/api/common/getLocalePluralCase</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/NgForOf</loc>
+    <loc>https://angular.cn/api/common/getLocaleTimeFormat</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/NgForOfContext</loc>
+    <loc>https://angular.cn/api/common/getLocaleNumberSymbol</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/NgIf</loc>
+    <loc>https://angular.cn/api/common/getLocaleNumberFormat</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/NgIfContext</loc>
+    <loc>https://angular.cn/api/common/getLocaleCurrencyName</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/NgPlural</loc>
+    <loc>https://angular.cn/api/common/getLocaleCurrencySymbol</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/NgPluralCase</loc>
+    <loc>https://angular.cn/api/common/CommonModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/NgStyle</loc>
+    <loc>https://angular.cn/api/common/DeprecatedI18NPipesModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/NgSwitch</loc>
+    <loc>https://angular.cn/api/common/NgClass</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/NgSwitchCase</loc>
+    <loc>https://angular.cn/api/common/NgForOf</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/NgSwitchDefault</loc>
+    <loc>https://angular.cn/api/common/NgForOfContext</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/NgTemplateOutlet</loc>
+    <loc>https://angular.cn/api/common/NgIf</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/NgComponentOutlet</loc>
+    <loc>https://angular.cn/api/common/NgIfContext</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/DOCUMENT</loc>
+    <loc>https://angular.cn/api/common/NgPlural</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/AsyncPipe</loc>
+    <loc>https://angular.cn/api/common/NgPluralCase</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/DatePipe</loc>
+    <loc>https://angular.cn/api/common/NgStyle</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/I18nPluralPipe</loc>
+    <loc>https://angular.cn/api/common/NgSwitch</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/I18nSelectPipe</loc>
+    <loc>https://angular.cn/api/common/NgSwitchCase</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/JsonPipe</loc>
+    <loc>https://angular.cn/api/common/NgSwitchDefault</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/LowerCasePipe</loc>
+    <loc>https://angular.cn/api/common/NgTemplateOutlet</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/CurrencyPipe</loc>
+    <loc>https://angular.cn/api/common/NgComponentOutlet</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/DecimalPipe</loc>
+    <loc>https://angular.cn/api/common/DOCUMENT</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/PercentPipe</loc>
+    <loc>https://angular.cn/api/common/AsyncPipe</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/SlicePipe</loc>
+    <loc>https://angular.cn/api/common/DatePipe</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/UpperCasePipe</loc>
+    <loc>https://angular.cn/api/common/I18nPluralPipe</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/TitleCasePipe</loc>
+    <loc>https://angular.cn/api/common/I18nSelectPipe</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/DeprecatedDatePipe</loc>
+    <loc>https://angular.cn/api/common/JsonPipe</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/DeprecatedCurrencyPipe</loc>
+    <loc>https://angular.cn/api/common/LowerCasePipe</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/DeprecatedDecimalPipe</loc>
+    <loc>https://angular.cn/api/common/CurrencyPipe</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/DeprecatedPercentPipe</loc>
+    <loc>https://angular.cn/api/common/DecimalPipe</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/isPlatformBrowser</loc>
+    <loc>https://angular.cn/api/common/PercentPipe</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/isPlatformServer</loc>
+    <loc>https://angular.cn/api/common/SlicePipe</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/isPlatformWorkerApp</loc>
+    <loc>https://angular.cn/api/common/UpperCasePipe</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/isPlatformWorkerUi</loc>
+    <loc>https://angular.cn/api/common/TitleCasePipe</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/PlatformLocation</loc>
+    <loc>https://angular.cn/api/common/DeprecatedDatePipe</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/LOCATION_INITIALIZED</loc>
+    <loc>https://angular.cn/api/common/DeprecatedCurrencyPipe</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/LocationChangeEvent</loc>
+    <loc>https://angular.cn/api/common/DeprecatedDecimalPipe</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/LocationChangeListener</loc>
+    <loc>https://angular.cn/api/common/DeprecatedPercentPipe</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/LocationStrategy</loc>
+    <loc>https://angular.cn/api/common/isPlatformBrowser</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/APP_BASE_HREF</loc>
+    <loc>https://angular.cn/api/common/isPlatformServer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/HashLocationStrategy</loc>
+    <loc>https://angular.cn/api/common/isPlatformWorkerApp</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/PathLocationStrategy</loc>
+    <loc>https://angular.cn/api/common/isPlatformWorkerUi</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/PopStateEvent</loc>
+    <loc>https://angular.cn/api/common/PlatformLocation</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/Location</loc>
+    <loc>https://angular.cn/api/common/LOCATION_INITIALIZED</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/testing</loc>
+    <loc>https://angular.cn/api/common/LocationChangeEvent</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/testing/SpyLocation</loc>
+    <loc>https://angular.cn/api/common/LocationChangeListener</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/common/testing/MockLocationStrategy</loc>
+    <loc>https://angular.cn/api/common/LocationStrategy</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core</loc>
+    <loc>https://angular.cn/api/common/APP_BASE_HREF</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/TypeDecorator</loc>
+    <loc>https://angular.cn/api/common/HashLocationStrategy</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/createPlatform</loc>
+    <loc>https://angular.cn/api/common/PathLocationStrategy</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/assertPlatform</loc>
+    <loc>https://angular.cn/api/common/PopStateEvent</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/destroyPlatform</loc>
+    <loc>https://angular.cn/api/common/Location</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/getPlatform</loc>
+    <loc>https://angular.cn/api/common/testing</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/PlatformRef</loc>
+    <loc>https://angular.cn/api/common/testing/SpyLocation</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ApplicationRef</loc>
+    <loc>https://angular.cn/api/common/testing/MockLocationStrategy</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/enableProdMode</loc>
+    <loc>https://angular.cn/api/core</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/isDevMode</loc>
+    <loc>https://angular.cn/api/core/TypeDecorator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/createPlatformFactory</loc>
+    <loc>https://angular.cn/api/core/createPlatform</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/NgProbeToken</loc>
+    <loc>https://angular.cn/api/core/assertPlatform</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/APP_ID</loc>
+    <loc>https://angular.cn/api/core/destroyPlatform</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/PACKAGE_ROOT_URL</loc>
+    <loc>https://angular.cn/api/core/getPlatform</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/PLATFORM_INITIALIZER</loc>
+    <loc>https://angular.cn/api/core/PlatformRef</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/PLATFORM_ID</loc>
+    <loc>https://angular.cn/api/core/ApplicationRef</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/APP_BOOTSTRAP_LISTENER</loc>
+    <loc>https://angular.cn/api/core/enableProdMode</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/APP_INITIALIZER</loc>
+    <loc>https://angular.cn/api/core/isDevMode</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ApplicationInitStatus</loc>
+    <loc>https://angular.cn/api/core/createPlatformFactory</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/DebugElement</loc>
+    <loc>https://angular.cn/api/core/NgProbeToken</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/DebugNode</loc>
+    <loc>https://angular.cn/api/core/APP_ID</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/asNativeElements</loc>
+    <loc>https://angular.cn/api/core/PACKAGE_ROOT_URL</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/getDebugNode</loc>
+    <loc>https://angular.cn/api/core/PLATFORM_INITIALIZER</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Predicate</loc>
+    <loc>https://angular.cn/api/core/PLATFORM_ID</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/GetTestability</loc>
+    <loc>https://angular.cn/api/core/APP_BOOTSTRAP_LISTENER</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Testability</loc>
+    <loc>https://angular.cn/api/core/APP_INITIALIZER</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/TestabilityRegistry</loc>
+    <loc>https://angular.cn/api/core/ApplicationInitStatus</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/setTestabilityGetter</loc>
+    <loc>https://angular.cn/api/core/DebugElement</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/TRANSLATIONS</loc>
+    <loc>https://angular.cn/api/core/DebugNode</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/TRANSLATIONS_FORMAT</loc>
+    <loc>https://angular.cn/api/core/asNativeElements</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/LOCALE_ID</loc>
+    <loc>https://angular.cn/api/core/getDebugNode</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/MissingTranslationStrategy</loc>
+    <loc>https://angular.cn/api/core/Predicate</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ApplicationModule</loc>
+    <loc>https://angular.cn/api/core/GetTestability</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/wtfCreateScope</loc>
+    <loc>https://angular.cn/api/core/Testability</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/wtfLeave</loc>
+    <loc>https://angular.cn/api/core/TestabilityRegistry</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/wtfStartTimeRange</loc>
+    <loc>https://angular.cn/api/core/setTestabilityGetter</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/wtfEndTimeRange</loc>
+    <loc>https://angular.cn/api/core/TRANSLATIONS</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/WtfScopeFn</loc>
+    <loc>https://angular.cn/api/core/TRANSLATIONS_FORMAT</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Type</loc>
+    <loc>https://angular.cn/api/core/LOCALE_ID</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/EventEmitter</loc>
+    <loc>https://angular.cn/api/core/MissingTranslationStrategy</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ErrorHandler</loc>
+    <loc>https://angular.cn/api/core/ApplicationModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Sanitizer</loc>
+    <loc>https://angular.cn/api/core/wtfCreateScope</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/SecurityContext</loc>
+    <loc>https://angular.cn/api/core/wtfLeave</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/AnimationEntryMetadata</loc>
+    <loc>https://angular.cn/api/core/wtfStartTimeRange</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/AnimationStateTransitionMetadata</loc>
+    <loc>https://angular.cn/api/core/wtfEndTimeRange</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/AnimationPlayer</loc>
+    <loc>https://angular.cn/api/core/WtfScopeFn</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/AnimationStyles</loc>
+    <loc>https://angular.cn/api/core/Type</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/AnimationKeyframe</loc>
+    <loc>https://angular.cn/api/core/EventEmitter</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ANALYZE_FOR_ENTRY_COMPONENTS</loc>
+    <loc>https://angular.cn/api/core/ErrorHandler</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Attribute</loc>
+    <loc>https://angular.cn/api/core/Sanitizer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ContentChild</loc>
+    <loc>https://angular.cn/api/core/SecurityContext</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ContentChildDecorator</loc>
+    <loc>https://angular.cn/api/core/ANALYZE_FOR_ENTRY_COMPONENTS</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ContentChildren</loc>
+    <loc>https://angular.cn/api/core/Attribute</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ContentChildrenDecorator</loc>
+    <loc>https://angular.cn/api/core/ContentChild</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Query</loc>
+    <loc>https://angular.cn/api/core/ContentChildDecorator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ViewChild</loc>
+    <loc>https://angular.cn/api/core/ContentChildren</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ViewChildDecorator</loc>
+    <loc>https://angular.cn/api/core/ContentChildrenDecorator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ViewChildren</loc>
+    <loc>https://angular.cn/api/core/Query</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ViewChildrenDecorator</loc>
+    <loc>https://angular.cn/api/core/ViewChild</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Component</loc>
+    <loc>https://angular.cn/api/core/ViewChildDecorator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ComponentDecorator</loc>
+    <loc>https://angular.cn/api/core/ViewChildren</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Directive</loc>
+    <loc>https://angular.cn/api/core/ViewChildrenDecorator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/DirectiveDecorator</loc>
+    <loc>https://angular.cn/api/core/Component</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/HostBinding</loc>
+    <loc>https://angular.cn/api/core/ComponentDecorator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/HostListener</loc>
+    <loc>https://angular.cn/api/core/Directive</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Input</loc>
+    <loc>https://angular.cn/api/core/DirectiveDecorator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Output</loc>
+    <loc>https://angular.cn/api/core/HostBinding</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Pipe</loc>
+    <loc>https://angular.cn/api/core/HostListener</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/AfterContentChecked</loc>
+    <loc>https://angular.cn/api/core/Input</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/AfterContentInit</loc>
+    <loc>https://angular.cn/api/core/Output</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/AfterViewChecked</loc>
+    <loc>https://angular.cn/api/core/Pipe</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/AfterViewInit</loc>
+    <loc>https://angular.cn/api/core/AfterContentChecked</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/DoCheck</loc>
+    <loc>https://angular.cn/api/core/AfterContentInit</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/OnChanges</loc>
+    <loc>https://angular.cn/api/core/AfterViewChecked</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/OnDestroy</loc>
+    <loc>https://angular.cn/api/core/AfterViewInit</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/OnInit</loc>
+    <loc>https://angular.cn/api/core/DoCheck</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/CUSTOM_ELEMENTS_SCHEMA</loc>
+    <loc>https://angular.cn/api/core/OnChanges</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ModuleWithProviders</loc>
+    <loc>https://angular.cn/api/core/OnDestroy</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/NO_ERRORS_SCHEMA</loc>
+    <loc>https://angular.cn/api/core/OnInit</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/NgModule</loc>
+    <loc>https://angular.cn/api/core/CUSTOM_ELEMENTS_SCHEMA</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/SchemaMetadata</loc>
+    <loc>https://angular.cn/api/core/ModuleWithProviders</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ViewEncapsulation</loc>
+    <loc>https://angular.cn/api/core/NO_ERRORS_SCHEMA</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Version</loc>
+    <loc>https://angular.cn/api/core/NgModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/defineInjectable</loc>
+    <loc>https://angular.cn/api/core/SchemaMetadata</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Injectable</loc>
+    <loc>https://angular.cn/api/core/ViewEncapsulation</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/InjectableDecorator</loc>
+    <loc>https://angular.cn/api/core/Version</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/InjectableProvider</loc>
+    <loc>https://angular.cn/api/core/InjectableType</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/InjectableType</loc>
+    <loc>https://angular.cn/api/core/InjectorType</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/forwardRef</loc>
+    <loc>https://angular.cn/api/core/defineInjectable</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/resolveForwardRef</loc>
+    <loc>https://angular.cn/api/core/defineInjector</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ForwardRefFn</loc>
+    <loc>https://angular.cn/api/core/forwardRef</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/InjectFlags</loc>
+    <loc>https://angular.cn/api/core/resolveForwardRef</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Injector</loc>
+    <loc>https://angular.cn/api/core/ForwardRefFn</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ReflectiveInjector</loc>
+    <loc>https://angular.cn/api/core/Injectable</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/StaticProvider</loc>
+    <loc>https://angular.cn/api/core/InjectableDecorator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ValueProvider</loc>
+    <loc>https://angular.cn/api/core/InjectableProvider</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ExistingProvider</loc>
+    <loc>https://angular.cn/api/core/inject</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/FactoryProvider</loc>
+    <loc>https://angular.cn/api/core/InjectFlags</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Provider</loc>
+    <loc>https://angular.cn/api/core/INJECTOR</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/TypeProvider</loc>
+    <loc>https://angular.cn/api/core/Injector</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ClassProvider</loc>
+    <loc>https://angular.cn/api/core/ReflectiveInjector</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ResolvedReflectiveFactory</loc>
+    <loc>https://angular.cn/api/core/StaticProvider</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ResolvedReflectiveProvider</loc>
+    <loc>https://angular.cn/api/core/ValueProvider</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ReflectiveKey</loc>
+    <loc>https://angular.cn/api/core/ExistingProvider</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/InjectionToken</loc>
+    <loc>https://angular.cn/api/core/FactoryProvider</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/APP_ROOT_SCOPE</loc>
+    <loc>https://angular.cn/api/core/Provider</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/InjectDecorator</loc>
+    <loc>https://angular.cn/api/core/TypeProvider</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Inject</loc>
+    <loc>https://angular.cn/api/core/ClassProvider</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/OptionalDecorator</loc>
+    <loc>https://angular.cn/api/core/createInjector</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Optional</loc>
+    <loc>https://angular.cn/api/core/ResolvedReflectiveFactory</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/SelfDecorator</loc>
+    <loc>https://angular.cn/api/core/ResolvedReflectiveProvider</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Self</loc>
+    <loc>https://angular.cn/api/core/ReflectiveKey</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/SkipSelfDecorator</loc>
+    <loc>https://angular.cn/api/core/InjectionToken</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/SkipSelf</loc>
+    <loc>https://angular.cn/api/core/InjectDecorator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/HostDecorator</loc>
+    <loc>https://angular.cn/api/core/Inject</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Host</loc>
+    <loc>https://angular.cn/api/core/OptionalDecorator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/NgZone</loc>
+    <loc>https://angular.cn/api/core/Optional</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/RenderComponentType</loc>
+    <loc>https://angular.cn/api/core/SelfDecorator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Renderer</loc>
+    <loc>https://angular.cn/api/core/Self</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Renderer2</loc>
+    <loc>https://angular.cn/api/core/SkipSelfDecorator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/RendererFactory2</loc>
+    <loc>https://angular.cn/api/core/SkipSelf</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/RendererStyleFlags2</loc>
+    <loc>https://angular.cn/api/core/HostDecorator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/RendererType2</loc>
+    <loc>https://angular.cn/api/core/Host</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/RootRenderer</loc>
+    <loc>https://angular.cn/api/core/NgZone</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/COMPILER_OPTIONS</loc>
+    <loc>https://angular.cn/api/core/RenderComponentType</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/Compiler</loc>
+    <loc>https://angular.cn/api/core/Renderer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/CompilerFactory</loc>
+    <loc>https://angular.cn/api/core/Renderer2</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/CompilerOptions</loc>
+    <loc>https://angular.cn/api/core/RendererFactory2</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ModuleWithComponentFactories</loc>
+    <loc>https://angular.cn/api/core/RendererStyleFlags2</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ComponentFactory</loc>
+    <loc>https://angular.cn/api/core/RendererType2</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ComponentRef</loc>
+    <loc>https://angular.cn/api/core/RootRenderer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ComponentFactoryResolver</loc>
+    <loc>https://angular.cn/api/core/COMPILER_OPTIONS</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ElementRef</loc>
+    <loc>https://angular.cn/api/core/Compiler</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/NgModuleFactory</loc>
+    <loc>https://angular.cn/api/core/CompilerFactory</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/NgModuleRef</loc>
+    <loc>https://angular.cn/api/core/CompilerOptions</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/NgModuleFactoryLoader</loc>
+    <loc>https://angular.cn/api/core/ModuleWithComponentFactories</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/getModuleFactory</loc>
+    <loc>https://angular.cn/api/core/ComponentFactory</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/QueryList</loc>
+    <loc>https://angular.cn/api/core/ComponentRef</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/SystemJsNgModuleLoader</loc>
+    <loc>https://angular.cn/api/core/ComponentFactoryResolver</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/SystemJsNgModuleLoaderConfig</loc>
+    <loc>https://angular.cn/api/core/ElementRef</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/TemplateRef</loc>
+    <loc>https://angular.cn/api/core/NgModuleFactory</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ViewContainerRef</loc>
+    <loc>https://angular.cn/api/core/NgModuleRef</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/EmbeddedViewRef</loc>
+    <loc>https://angular.cn/api/core/NgModuleFactoryLoader</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ViewRef</loc>
+    <loc>https://angular.cn/api/core/getModuleFactory</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ChangeDetectionStrategy</loc>
+    <loc>https://angular.cn/api/core/QueryList</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/ChangeDetectorRef</loc>
+    <loc>https://angular.cn/api/core/SystemJsNgModuleLoader</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/CollectionChangeRecord</loc>
+    <loc>https://angular.cn/api/core/SystemJsNgModuleLoaderConfig</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/DefaultIterableDiffer</loc>
+    <loc>https://angular.cn/api/core/TemplateRef</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/IterableChangeRecord</loc>
+    <loc>https://angular.cn/api/core/ViewContainerRef</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/IterableChanges</loc>
+    <loc>https://angular.cn/api/core/EmbeddedViewRef</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/IterableDiffer</loc>
+    <loc>https://angular.cn/api/core/ViewRef</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/IterableDifferFactory</loc>
+    <loc>https://angular.cn/api/core/ChangeDetectionStrategy</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/IterableDiffers</loc>
+    <loc>https://angular.cn/api/core/ChangeDetectorRef</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/KeyValueChangeRecord</loc>
+    <loc>https://angular.cn/api/core/CollectionChangeRecord</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/KeyValueChanges</loc>
+    <loc>https://angular.cn/api/core/DefaultIterableDiffer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/KeyValueDiffer</loc>
+    <loc>https://angular.cn/api/core/IterableChangeRecord</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/KeyValueDifferFactory</loc>
+    <loc>https://angular.cn/api/core/IterableChanges</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/KeyValueDiffers</loc>
+    <loc>https://angular.cn/api/core/IterableDiffer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/NgIterable</loc>
+    <loc>https://angular.cn/api/core/IterableDifferFactory</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/PipeTransform</loc>
+    <loc>https://angular.cn/api/core/IterableDiffers</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/SimpleChange</loc>
+    <loc>https://angular.cn/api/core/KeyValueChangeRecord</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/SimpleChanges</loc>
+    <loc>https://angular.cn/api/core/KeyValueChanges</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/TrackByFunction</loc>
+    <loc>https://angular.cn/api/core/KeyValueDiffer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/WrappedValue</loc>
+    <loc>https://angular.cn/api/core/KeyValueDifferFactory</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/platformCore</loc>
+    <loc>https://angular.cn/api/core/KeyValueDiffers</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/AUTO_STYLE</loc>
+    <loc>https://angular.cn/api/core/NgIterable</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/AnimationMetadata</loc>
+    <loc>https://angular.cn/api/core/PipeTransform</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/AnimationTriggerMetadata</loc>
+    <loc>https://angular.cn/api/core/SimpleChange</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/AnimationStateMetadata</loc>
+    <loc>https://angular.cn/api/core/SimpleChanges</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/AnimationTransitionMetadata</loc>
+    <loc>https://angular.cn/api/core/TrackByFunction</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/AnimationKeyframesSequenceMetadata</loc>
+    <loc>https://angular.cn/api/core/WrappedValue</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/AnimationStyleMetadata</loc>
+    <loc>https://angular.cn/api/core/platformCore</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/AnimationAnimateMetadata</loc>
+    <loc>https://angular.cn/api/core/testing</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/AnimationSequenceMetadata</loc>
+    <loc>https://angular.cn/api/core/testing/async</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/AnimationGroupMetadata</loc>
+    <loc>https://angular.cn/api/core/testing/ComponentFixture</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/trigger</loc>
+    <loc>https://angular.cn/api/core/testing/resetFakeAsyncZone</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/animate</loc>
+    <loc>https://angular.cn/api/core/testing/fakeAsync</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/group</loc>
+    <loc>https://angular.cn/api/core/testing/tick</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/sequence</loc>
+    <loc>https://angular.cn/api/core/testing/flush</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/style</loc>
+    <loc>https://angular.cn/api/core/testing/discardPeriodicTasks</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/state</loc>
+    <loc>https://angular.cn/api/core/testing/flushMicrotasks</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/keyframes</loc>
+    <loc>https://angular.cn/api/core/testing/TestComponentRenderer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/transition</loc>
+    <loc>https://angular.cn/api/core/testing/ComponentFixtureAutoDetect</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/AnimationTransitionEvent</loc>
+    <loc>https://angular.cn/api/core/testing/ComponentFixtureNoNgZone</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing</loc>
+    <loc>https://angular.cn/api/core/testing/TestModuleMetadata</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/async</loc>
+    <loc>https://angular.cn/api/core/testing/TestBed</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/ComponentFixture</loc>
+    <loc>https://angular.cn/api/core/testing/getTestBed</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/resetFakeAsyncZone</loc>
+    <loc>https://angular.cn/api/core/testing/inject</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/fakeAsync</loc>
+    <loc>https://angular.cn/api/core/testing/InjectSetupWrapper</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/tick</loc>
+    <loc>https://angular.cn/api/core/testing/withModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/flush</loc>
+    <loc>https://angular.cn/api/core/testing/MetadataOverride</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/discardPeriodicTasks</loc>
+    <loc>https://angular.cn/api/core/testing/withBody</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/flushMicrotasks</loc>
+    <loc>https://angular.cn/api/core/testing/ensureDocument</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/TestComponentRenderer</loc>
+    <loc>https://angular.cn/api/core/testing/cleanupDocument</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/ComponentFixtureAutoDetect</loc>
+    <loc>https://angular.cn/api/elements</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/ComponentFixtureNoNgZone</loc>
+    <loc>https://angular.cn/api/elements/NgElement</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/TestModuleMetadata</loc>
+    <loc>https://angular.cn/api/elements/NgElementConfig</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/TestBed</loc>
+    <loc>https://angular.cn/api/elements/NgElementConstructor</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/getTestBed</loc>
+    <loc>https://angular.cn/api/elements/WithProperties</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/inject</loc>
+    <loc>https://angular.cn/api/elements/createCustomElement</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/InjectSetupWrapper</loc>
+    <loc>https://angular.cn/api/elements/NgElementStrategy</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/withModule</loc>
+    <loc>https://angular.cn/api/elements/NgElementStrategyEvent</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/MetadataOverride</loc>
+    <loc>https://angular.cn/api/elements/NgElementStrategyFactory</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/withBody</loc>
+    <loc>https://angular.cn/api/forms</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/ensureDocument</loc>
+    <loc>https://angular.cn/api/forms/AbstractControlDirective</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/core/testing/cleanupDocument</loc>
+    <loc>https://angular.cn/api/forms/AbstractFormGroupDirective</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms</loc>
+    <loc>https://angular.cn/api/forms/CheckboxControlValueAccessor</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/AbstractControlDirective</loc>
+    <loc>https://angular.cn/api/forms/ControlContainer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/AbstractFormGroupDirective</loc>
+    <loc>https://angular.cn/api/forms/ControlValueAccessor</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/CheckboxControlValueAccessor</loc>
+    <loc>https://angular.cn/api/forms/NG_VALUE_ACCESSOR</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/ControlContainer</loc>
+    <loc>https://angular.cn/api/forms/COMPOSITION_BUFFER_MODE</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/ControlValueAccessor</loc>
+    <loc>https://angular.cn/api/forms/DefaultValueAccessor</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/NG_VALUE_ACCESSOR</loc>
+    <loc>https://angular.cn/api/forms/Form</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/COMPOSITION_BUFFER_MODE</loc>
+    <loc>https://angular.cn/api/forms/NgControl</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/DefaultValueAccessor</loc>
+    <loc>https://angular.cn/api/forms/NgControlStatus</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/Form</loc>
+    <loc>https://angular.cn/api/forms/NgControlStatusGroup</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/NgControl</loc>
+    <loc>https://angular.cn/api/forms/NgForm</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/NgControlStatus</loc>
+    <loc>https://angular.cn/api/forms/NgModel</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/NgControlStatusGroup</loc>
+    <loc>https://angular.cn/api/forms/NgModelGroup</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/NgForm</loc>
+    <loc>https://angular.cn/api/forms/RadioControlValueAccessor</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/NgModel</loc>
+    <loc>https://angular.cn/api/forms/FormControlDirective</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/NgModelGroup</loc>
+    <loc>https://angular.cn/api/forms/FormControlName</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/RadioControlValueAccessor</loc>
+    <loc>https://angular.cn/api/forms/FormGroupDirective</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/FormControlDirective</loc>
+    <loc>https://angular.cn/api/forms/FormArrayName</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/FormControlName</loc>
+    <loc>https://angular.cn/api/forms/FormGroupName</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/FormGroupDirective</loc>
+    <loc>https://angular.cn/api/forms/NgSelectOption</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/FormArrayName</loc>
+    <loc>https://angular.cn/api/forms/SelectControlValueAccessor</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/FormGroupName</loc>
+    <loc>https://angular.cn/api/forms/SelectMultipleControlValueAccessor</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/NgSelectOption</loc>
+    <loc>https://angular.cn/api/forms/AsyncValidator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/SelectControlValueAccessor</loc>
+    <loc>https://angular.cn/api/forms/AsyncValidatorFn</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/SelectMultipleControlValueAccessor</loc>
+    <loc>https://angular.cn/api/forms/CheckboxRequiredValidator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/AsyncValidator</loc>
+    <loc>https://angular.cn/api/forms/EmailValidator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/AsyncValidatorFn</loc>
+    <loc>https://angular.cn/api/forms/MaxLengthValidator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/CheckboxRequiredValidator</loc>
+    <loc>https://angular.cn/api/forms/MinLengthValidator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/EmailValidator</loc>
+    <loc>https://angular.cn/api/forms/PatternValidator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/MaxLengthValidator</loc>
+    <loc>https://angular.cn/api/forms/RequiredValidator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/MinLengthValidator</loc>
+    <loc>https://angular.cn/api/forms/ValidationErrors</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/PatternValidator</loc>
+    <loc>https://angular.cn/api/forms/Validator</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/RequiredValidator</loc>
+    <loc>https://angular.cn/api/forms/ValidatorFn</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/ValidationErrors</loc>
+    <loc>https://angular.cn/api/forms/FormBuilder</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/Validator</loc>
+    <loc>https://angular.cn/api/forms/AbstractControl</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/ValidatorFn</loc>
+    <loc>https://angular.cn/api/forms/AbstractControlOptions</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/FormBuilder</loc>
+    <loc>https://angular.cn/api/forms/FormArray</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/AbstractControl</loc>
+    <loc>https://angular.cn/api/forms/FormControl</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/AbstractControlOptions</loc>
+    <loc>https://angular.cn/api/forms/FormGroup</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/FormArray</loc>
+    <loc>https://angular.cn/api/forms/NG_ASYNC_VALIDATORS</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/FormControl</loc>
+    <loc>https://angular.cn/api/forms/NG_VALIDATORS</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/FormGroup</loc>
+    <loc>https://angular.cn/api/forms/Validators</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/NG_ASYNC_VALIDATORS</loc>
+    <loc>https://angular.cn/api/forms/FormsModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/NG_VALIDATORS</loc>
+    <loc>https://angular.cn/api/forms/ReactiveFormsModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/Validators</loc>
+    <loc>https://angular.cn/api/http</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/FormsModule</loc>
+    <loc>https://angular.cn/api/http/BrowserXhr</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/forms/ReactiveFormsModule</loc>
+    <loc>https://angular.cn/api/http/JSONPBackend</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http</loc>
+    <loc>https://angular.cn/api/http/JSONPConnection</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/BrowserXhr</loc>
+    <loc>https://angular.cn/api/http/CookieXSRFStrategy</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/JSONPBackend</loc>
+    <loc>https://angular.cn/api/http/XHRBackend</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/JSONPConnection</loc>
+    <loc>https://angular.cn/api/http/XHRConnection</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/CookieXSRFStrategy</loc>
+    <loc>https://angular.cn/api/http/BaseRequestOptions</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/XHRBackend</loc>
+    <loc>https://angular.cn/api/http/RequestOptions</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/XHRConnection</loc>
+    <loc>https://angular.cn/api/http/BaseResponseOptions</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/BaseRequestOptions</loc>
+    <loc>https://angular.cn/api/http/ResponseOptions</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/RequestOptions</loc>
+    <loc>https://angular.cn/api/http/ReadyState</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/BaseResponseOptions</loc>
+    <loc>https://angular.cn/api/http/RequestMethod</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/ResponseOptions</loc>
+    <loc>https://angular.cn/api/http/ResponseContentType</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/ReadyState</loc>
+    <loc>https://angular.cn/api/http/ResponseType</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/RequestMethod</loc>
+    <loc>https://angular.cn/api/http/Headers</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/ResponseContentType</loc>
+    <loc>https://angular.cn/api/http/Http</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/ResponseType</loc>
+    <loc>https://angular.cn/api/http/Jsonp</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/Headers</loc>
+    <loc>https://angular.cn/api/http/HttpModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/Http</loc>
+    <loc>https://angular.cn/api/http/JsonpModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/Jsonp</loc>
+    <loc>https://angular.cn/api/http/Connection</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/HttpModule</loc>
+    <loc>https://angular.cn/api/http/ConnectionBackend</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/JsonpModule</loc>
+    <loc>https://angular.cn/api/http/RequestOptionsArgs</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/Connection</loc>
+    <loc>https://angular.cn/api/http/ResponseOptionsArgs</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/ConnectionBackend</loc>
+    <loc>https://angular.cn/api/http/XSRFStrategy</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/RequestOptionsArgs</loc>
+    <loc>https://angular.cn/api/http/Request</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/ResponseOptionsArgs</loc>
+    <loc>https://angular.cn/api/http/Response</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/XSRFStrategy</loc>
+    <loc>https://angular.cn/api/http/QueryEncoder</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/Request</loc>
+    <loc>https://angular.cn/api/http/URLSearchParams</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/Response</loc>
+    <loc>https://angular.cn/api/http/testing</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/QueryEncoder</loc>
+    <loc>https://angular.cn/api/http/testing/MockConnection</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/URLSearchParams</loc>
+    <loc>https://angular.cn/api/http/testing/MockBackend</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/testing</loc>
+    <loc>https://angular.cn/api/platform-browser</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/testing/MockConnection</loc>
+    <loc>https://angular.cn/api/platform-browser/BrowserModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/http/testing/MockBackend</loc>
+    <loc>https://angular.cn/api/platform-browser/platformBrowser</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser</loc>
+    <loc>https://angular.cn/api/platform-browser/Meta</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/BrowserModule</loc>
+    <loc>https://angular.cn/api/platform-browser/MetaDefinition</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/platformBrowser</loc>
+    <loc>https://angular.cn/api/platform-browser/Title</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/Meta</loc>
+    <loc>https://angular.cn/api/platform-browser/disableDebugTools</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/MetaDefinition</loc>
+    <loc>https://angular.cn/api/platform-browser/enableDebugTools</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/Title</loc>
+    <loc>https://angular.cn/api/platform-browser/BrowserTransferStateModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/disableDebugTools</loc>
+    <loc>https://angular.cn/api/platform-browser/StateKey</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/enableDebugTools</loc>
+    <loc>https://angular.cn/api/platform-browser/TransferState</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/BrowserTransferStateModule</loc>
+    <loc>https://angular.cn/api/platform-browser/makeStateKey</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/StateKey</loc>
+    <loc>https://angular.cn/api/platform-browser/By</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/TransferState</loc>
+    <loc>https://angular.cn/api/platform-browser/DOCUMENT</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/makeStateKey</loc>
+    <loc>https://angular.cn/api/platform-browser/EVENT_MANAGER_PLUGINS</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/By</loc>
+    <loc>https://angular.cn/api/platform-browser/EventManager</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/DOCUMENT</loc>
+    <loc>https://angular.cn/api/platform-browser/HAMMER_GESTURE_CONFIG</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/EVENT_MANAGER_PLUGINS</loc>
+    <loc>https://angular.cn/api/platform-browser/HammerGestureConfig</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/EventManager</loc>
+    <loc>https://angular.cn/api/platform-browser/DomSanitizer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/HAMMER_GESTURE_CONFIG</loc>
+    <loc>https://angular.cn/api/platform-browser/SafeHtml</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/HammerGestureConfig</loc>
+    <loc>https://angular.cn/api/platform-browser/SafeResourceUrl</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/DomSanitizer</loc>
+    <loc>https://angular.cn/api/platform-browser/SafeScript</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/SafeHtml</loc>
+    <loc>https://angular.cn/api/platform-browser/SafeStyle</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/SafeResourceUrl</loc>
+    <loc>https://angular.cn/api/platform-browser/SafeUrl</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/SafeScript</loc>
+    <loc>https://angular.cn/api/platform-browser/SafeValue</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/SafeStyle</loc>
+    <loc>https://angular.cn/api/platform-browser/animations</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/SafeUrl</loc>
+    <loc>https://angular.cn/api/platform-browser/animations/BrowserAnimationsModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/SafeValue</loc>
+    <loc>https://angular.cn/api/platform-browser/animations/NoopAnimationsModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/animations</loc>
+    <loc>https://angular.cn/api/platform-browser/animations/ANIMATION_MODULE_TYPE</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/animations/BrowserAnimationsModule</loc>
+    <loc>https://angular.cn/api/platform-browser/testing</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/animations/NoopAnimationsModule</loc>
+    <loc>https://angular.cn/api/platform-browser/testing/platformBrowserTesting</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/testing</loc>
+    <loc>https://angular.cn/api/platform-browser/testing/BrowserTestingModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/testing/platformBrowserTesting</loc>
+    <loc>https://angular.cn/api/platform-browser-dynamic</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser/testing/BrowserTestingModule</loc>
+    <loc>https://angular.cn/api/platform-browser-dynamic/JitCompilerFactory</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser-dynamic</loc>
+    <loc>https://angular.cn/api/platform-browser-dynamic/RESOURCE_CACHE_PROVIDER</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser-dynamic/JitCompilerFactory</loc>
+    <loc>https://angular.cn/api/platform-browser-dynamic/platformBrowserDynamic</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser-dynamic/RESOURCE_CACHE_PROVIDER</loc>
+    <loc>https://angular.cn/api/platform-browser-dynamic/testing</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser-dynamic/platformBrowserDynamic</loc>
+    <loc>https://angular.cn/api/platform-browser-dynamic/testing/platformBrowserDynamicTesting</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser-dynamic/testing</loc>
+    <loc>https://angular.cn/api/platform-browser-dynamic/testing/BrowserDynamicTestingModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser-dynamic/testing/platformBrowserDynamicTesting</loc>
+    <loc>https://angular.cn/api/platform-server</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-browser-dynamic/testing/BrowserDynamicTestingModule</loc>
+    <loc>https://angular.cn/api/platform-server/PlatformState</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-server</loc>
+    <loc>https://angular.cn/api/platform-server/ServerModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-server/PlatformState</loc>
+    <loc>https://angular.cn/api/platform-server/platformDynamicServer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-server/ServerModule</loc>
+    <loc>https://angular.cn/api/platform-server/platformServer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-server/platformDynamicServer</loc>
+    <loc>https://angular.cn/api/platform-server/BEFORE_APP_SERIALIZED</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-server/platformServer</loc>
+    <loc>https://angular.cn/api/platform-server/INITIAL_CONFIG</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-server/BEFORE_APP_SERIALIZED</loc>
+    <loc>https://angular.cn/api/platform-server/PlatformConfig</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-server/INITIAL_CONFIG</loc>
+    <loc>https://angular.cn/api/platform-server/ServerTransferStateModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-server/PlatformConfig</loc>
+    <loc>https://angular.cn/api/platform-server/renderModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-server/ServerTransferStateModule</loc>
+    <loc>https://angular.cn/api/platform-server/renderModuleFactory</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-server/renderModule</loc>
+    <loc>https://angular.cn/api/platform-server/testing</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-server/renderModuleFactory</loc>
+    <loc>https://angular.cn/api/platform-server/testing/platformServerTesting</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-server/testing</loc>
+    <loc>https://angular.cn/api/platform-server/testing/ServerTestingModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-server/testing/platformServerTesting</loc>
+    <loc>https://angular.cn/api/platform-webworker</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-server/testing/ServerTestingModule</loc>
+    <loc>https://angular.cn/api/platform-webworker/ClientMessageBroker</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-webworker</loc>
+    <loc>https://angular.cn/api/platform-webworker/ClientMessageBrokerFactory</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-webworker/ClientMessageBroker</loc>
+    <loc>https://angular.cn/api/platform-webworker/FnArg</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-webworker/ClientMessageBrokerFactory</loc>
+    <loc>https://angular.cn/api/platform-webworker/UiArguments</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-webworker/FnArg</loc>
+    <loc>https://angular.cn/api/platform-webworker/MessageBus</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-webworker/UiArguments</loc>
+    <loc>https://angular.cn/api/platform-webworker/MessageBusSink</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-webworker/MessageBus</loc>
+    <loc>https://angular.cn/api/platform-webworker/MessageBusSource</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-webworker/MessageBusSink</loc>
+    <loc>https://angular.cn/api/platform-webworker/SerializerTypes</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-webworker/MessageBusSource</loc>
+    <loc>https://angular.cn/api/platform-webworker/ReceivedMessage</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-webworker/SerializerTypes</loc>
+    <loc>https://angular.cn/api/platform-webworker/ServiceMessageBroker</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-webworker/ReceivedMessage</loc>
+    <loc>https://angular.cn/api/platform-webworker/ServiceMessageBrokerFactory</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-webworker/ServiceMessageBroker</loc>
+    <loc>https://angular.cn/api/platform-webworker/WORKER_UI_LOCATION_PROVIDERS</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-webworker/ServiceMessageBrokerFactory</loc>
+    <loc>https://angular.cn/api/platform-webworker/WORKER_APP_LOCATION_PROVIDERS</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-webworker/WORKER_UI_LOCATION_PROVIDERS</loc>
+    <loc>https://angular.cn/api/platform-webworker/WorkerAppModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-webworker/WORKER_APP_LOCATION_PROVIDERS</loc>
+    <loc>https://angular.cn/api/platform-webworker/platformWorkerApp</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-webworker/WorkerAppModule</loc>
+    <loc>https://angular.cn/api/platform-webworker/platformWorkerUi</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-webworker/platformWorkerApp</loc>
+    <loc>https://angular.cn/api/platform-webworker/bootstrapWorkerUi</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-webworker/platformWorkerUi</loc>
+    <loc>https://angular.cn/api/platform-webworker-dynamic</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-webworker/bootstrapWorkerUi</loc>
+    <loc>https://angular.cn/api/platform-webworker-dynamic/platformWorkerAppDynamic</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-webworker-dynamic</loc>
+    <loc>https://angular.cn/api/router</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/platform-webworker-dynamic/platformWorkerAppDynamic</loc>
+    <loc>https://angular.cn/api/router/Data</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router</loc>
+    <loc>https://angular.cn/api/router/LoadChildren</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/Data</loc>
+    <loc>https://angular.cn/api/router/LoadChildrenCallback</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/LoadChildren</loc>
+    <loc>https://angular.cn/api/router/ResolveData</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/LoadChildrenCallback</loc>
+    <loc>https://angular.cn/api/router/Route</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/ResolveData</loc>
+    <loc>https://angular.cn/api/router/Routes</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/Route</loc>
+    <loc>https://angular.cn/api/router/RunGuardsAndResolvers</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/Routes</loc>
+    <loc>https://angular.cn/api/router/UrlMatchResult</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/RunGuardsAndResolvers</loc>
+    <loc>https://angular.cn/api/router/UrlMatcher</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/UrlMatchResult</loc>
+    <loc>https://angular.cn/api/router/RouterLink</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/UrlMatcher</loc>
+    <loc>https://angular.cn/api/router/RouterLinkWithHref</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/RouterLink</loc>
+    <loc>https://angular.cn/api/router/RouterLinkActive</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/RouterLinkWithHref</loc>
+    <loc>https://angular.cn/api/router/RouterOutlet</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/RouterLinkActive</loc>
+    <loc>https://angular.cn/api/router/ActivationEnd</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/RouterOutlet</loc>
+    <loc>https://angular.cn/api/router/ActivationStart</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/ActivationEnd</loc>
+    <loc>https://angular.cn/api/router/ChildActivationEnd</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/ActivationStart</loc>
+    <loc>https://angular.cn/api/router/ChildActivationStart</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/ChildActivationEnd</loc>
+    <loc>https://angular.cn/api/router/Event</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/ChildActivationStart</loc>
+    <loc>https://angular.cn/api/router/GuardsCheckEnd</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/Event</loc>
+    <loc>https://angular.cn/api/router/GuardsCheckStart</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/GuardsCheckEnd</loc>
+    <loc>https://angular.cn/api/router/NavigationCancel</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/GuardsCheckStart</loc>
+    <loc>https://angular.cn/api/router/NavigationEnd</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/NavigationCancel</loc>
+    <loc>https://angular.cn/api/router/NavigationError</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/NavigationEnd</loc>
+    <loc>https://angular.cn/api/router/NavigationStart</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/NavigationError</loc>
+    <loc>https://angular.cn/api/router/ResolveEnd</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/NavigationStart</loc>
+    <loc>https://angular.cn/api/router/ResolveStart</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/ResolveEnd</loc>
+    <loc>https://angular.cn/api/router/RouteConfigLoadEnd</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/ResolveStart</loc>
+    <loc>https://angular.cn/api/router/RouteConfigLoadStart</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/RouteConfigLoadEnd</loc>
+    <loc>https://angular.cn/api/router/RouterEvent</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/RouteConfigLoadStart</loc>
+    <loc>https://angular.cn/api/router/RoutesRecognized</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/RouterEvent</loc>
+    <loc>https://angular.cn/api/router/CanActivate</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/RoutesRecognized</loc>
+    <loc>https://angular.cn/api/router/CanActivateChild</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/CanActivate</loc>
+    <loc>https://angular.cn/api/router/CanDeactivate</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/CanActivateChild</loc>
+    <loc>https://angular.cn/api/router/CanLoad</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/CanDeactivate</loc>
+    <loc>https://angular.cn/api/router/Resolve</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/CanLoad</loc>
+    <loc>https://angular.cn/api/router/DetachedRouteHandle</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/Resolve</loc>
+    <loc>https://angular.cn/api/router/RouteReuseStrategy</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/DetachedRouteHandle</loc>
+    <loc>https://angular.cn/api/router/NavigationExtras</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/RouteReuseStrategy</loc>
+    <loc>https://angular.cn/api/router/Router</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/NavigationExtras</loc>
+    <loc>https://angular.cn/api/router/ROUTES</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/Router</loc>
+    <loc>https://angular.cn/api/router/ExtraOptions</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/ROUTES</loc>
+    <loc>https://angular.cn/api/router/ROUTER_CONFIGURATION</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/ExtraOptions</loc>
+    <loc>https://angular.cn/api/router/ROUTER_INITIALIZER</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/ROUTER_CONFIGURATION</loc>
+    <loc>https://angular.cn/api/router/RouterModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/ROUTER_INITIALIZER</loc>
+    <loc>https://angular.cn/api/router/provideRoutes</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/RouterModule</loc>
+    <loc>https://angular.cn/api/router/ChildrenOutletContexts</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/provideRoutes</loc>
+    <loc>https://angular.cn/api/router/OutletContext</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/ChildrenOutletContexts</loc>
+    <loc>https://angular.cn/api/router/NoPreloading</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/OutletContext</loc>
+    <loc>https://angular.cn/api/router/PreloadAllModules</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/NoPreloading</loc>
+    <loc>https://angular.cn/api/router/PreloadingStrategy</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/PreloadAllModules</loc>
+    <loc>https://angular.cn/api/router/RouterPreloader</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/PreloadingStrategy</loc>
+    <loc>https://angular.cn/api/router/ActivatedRoute</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/RouterPreloader</loc>
+    <loc>https://angular.cn/api/router/ActivatedRouteSnapshot</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/ActivatedRoute</loc>
+    <loc>https://angular.cn/api/router/RouterState</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/ActivatedRouteSnapshot</loc>
+    <loc>https://angular.cn/api/router/RouterStateSnapshot</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/RouterState</loc>
+    <loc>https://angular.cn/api/router/PRIMARY_OUTLET</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/RouterStateSnapshot</loc>
+    <loc>https://angular.cn/api/router/ParamMap</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/PRIMARY_OUTLET</loc>
+    <loc>https://angular.cn/api/router/Params</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/ParamMap</loc>
+    <loc>https://angular.cn/api/router/convertToParamMap</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/Params</loc>
+    <loc>https://angular.cn/api/router/UrlHandlingStrategy</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/convertToParamMap</loc>
+    <loc>https://angular.cn/api/router/DefaultUrlSerializer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/UrlHandlingStrategy</loc>
+    <loc>https://angular.cn/api/router/UrlSegment</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/DefaultUrlSerializer</loc>
+    <loc>https://angular.cn/api/router/UrlSegmentGroup</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/UrlSegment</loc>
+    <loc>https://angular.cn/api/router/UrlSerializer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/UrlSegmentGroup</loc>
+    <loc>https://angular.cn/api/router/UrlTree</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/UrlSerializer</loc>
+    <loc>https://angular.cn/api/router/testing</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/UrlTree</loc>
+    <loc>https://angular.cn/api/router/testing/SpyNgModuleFactoryLoader</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/testing</loc>
+    <loc>https://angular.cn/api/router/testing/setupTestingRouter</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/testing/SpyNgModuleFactoryLoader</loc>
+    <loc>https://angular.cn/api/router/testing/RouterTestingModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/testing/setupTestingRouter</loc>
+    <loc>https://angular.cn/api/router/upgrade</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/testing/RouterTestingModule</loc>
+    <loc>https://angular.cn/api/router/upgrade/RouterUpgradeInitializer</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/upgrade</loc>
+    <loc>https://angular.cn/api/router/upgrade/locationSyncBootstrapListener</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/upgrade/RouterUpgradeInitializer</loc>
+    <loc>https://angular.cn/api/router/upgrade/setUpLocationSync</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/upgrade/locationSyncBootstrapListener</loc>
+    <loc>https://angular.cn/api/service-worker</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/router/upgrade/setUpLocationSync</loc>
+    <loc>https://angular.cn/api/service-worker/ServiceWorkerModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/service-worker</loc>
+    <loc>https://angular.cn/api/service-worker/SwPush</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/service-worker/ServiceWorkerModule</loc>
+    <loc>https://angular.cn/api/service-worker/SwUpdate</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/service-worker/SwPush</loc>
+    <loc>https://angular.cn/api/upgrade</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/service-worker/SwUpdate</loc>
+    <loc>https://angular.cn/api/upgrade/UpgradeAdapter</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/upgrade</loc>
+    <loc>https://angular.cn/api/upgrade/UpgradeAdapterRef</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/upgrade/UpgradeAdapter</loc>
+    <loc>https://angular.cn/api/upgrade/static</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/upgrade/UpgradeAdapterRef</loc>
+    <loc>https://angular.cn/api/upgrade/static/getAngularJSGlobal</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/upgrade/static</loc>
+    <loc>https://angular.cn/api/upgrade/static/getAngularLib</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/upgrade/static/getAngularJSGlobal</loc>
+    <loc>https://angular.cn/api/upgrade/static/setAngularJSGlobal</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/upgrade/static/getAngularLib</loc>
+    <loc>https://angular.cn/api/upgrade/static/setAngularLib</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/upgrade/static/setAngularJSGlobal</loc>
+    <loc>https://angular.cn/api/upgrade/static/downgradeComponent</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/upgrade/static/setAngularLib</loc>
+    <loc>https://angular.cn/api/upgrade/static/downgradeInjectable</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/upgrade/static/downgradeComponent</loc>
+    <loc>https://angular.cn/api/upgrade/static/downgradeModule</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/upgrade/static/downgradeInjectable</loc>
+    <loc>https://angular.cn/api/upgrade/static/UpgradeComponent</loc>
   </url>
   <url>
-    <loc>https://angular.io/api/upgrade/static/downgradeModule</loc>
-  </url>
-  <url>
-    <loc>https://angular.io/api/upgrade/static/UpgradeComponent</loc>
-  </url>
-  <url>
-    <loc>https://angular.io/api/upgrade/static/UpgradeModule</loc>
+    <loc>https://angular.cn/api/upgrade/static/UpgradeModule</loc>
   </url>
 </urlset>
